@@ -38,61 +38,112 @@
         }
       ]
     },
-    "directory": "card",
-    "groups": [
+    "languages": [
       {
-        "group": "Tính năng mới",
-        "pages": [
-          "checklist",
-          "dao-tao",
-          "thong-bao"
+        "language": "vi",
+        "default": true,
+        "directory": "card",
+        "groups": [
+          {
+            "group": "Tính năng mới",
+            "pages": ["vi/checklist", "vi/dao-tao", "vi/thong-bao"]
+          },
+          {
+            "group": "Get Started",
+            "icon": "rocket",
+            "expanded": true,
+            "pages": ["vi/introduction", "vi/quickstart", "vi/how-it-works"]
+          },
+          {
+            "group": "Platform",
+            "icon": "layers",
+            "expanded": true,
+            "pages": [
+              "vi/platform/checklists",
+              "vi/platform/task-management",
+              "vi/platform/training",
+              "vi/platform/analytics",
+              "vi/platform/team-chat",
+              "vi/platform/heads-up",
+              "vi/platform/issues",
+              "vi/platform/ai"
+            ]
+          },
+          {
+            "group": "Trường hợp sử dụng",
+            "icon": "briefcase",
+            "expanded": true,
+            "pages": [
+              "vi/use-cases/retail",
+              "vi/use-cases/fb",
+              "vi/use-cases/hospitality",
+              "vi/use-cases/facilities"
+            ]
+          },
+          {
+            "group": "Account & Settings",
+            "icon": "settings",
+            "expanded": true,
+            "pages": [
+              "vi/account/setup",
+              "vi/account/roles-permissions",
+              "vi/account/integrations",
+              "vi/account/pricing"
+            ]
+          }
         ]
       },
       {
-        "group": "Get Started",
-        "icon": "rocket",
-        "expanded": true,
-        "pages": [
-          "introduction",
-          "quickstart",
-          "how-it-works"
-        ]
-      },
-      {
-        "group": "Platform",
-        "icon": "layers",
-        "expanded": true,
-        "pages": [
-          "platform/checklists",
-          "platform/task-management",
-          "platform/training",
-          "platform/analytics",
-          "platform/team-chat",
-          "platform/heads-up",
-          "platform/issues",
-          "platform/ai"
-        ]
-      },
-      {
-        "group": "Trường hợp sử dụng",
-        "icon": "briefcase",
-        "expanded": true,
-        "pages": [
-          "use-cases/retail",
-          "use-cases/fb",
-          "use-cases/hospitality",
-          "use-cases/facilities"
-        ]
-      },
-      {
-        "group": "Account & Settings",
-        "icon": "settings",
-        "expanded": true,
-        "pages": [
-          "account/setup",
-          "account/roles-permissions",
-          "account/integrations",
-          "account/pricing"
+        "language": "en",
+        "directory": "card",
+        "groups": [
+          {
+            "group": "What's new",
+            "pages": ["en/checklist", "en/dao-tao", "en/thong-bao"]
+          },
+          {
+            "group": "Get Started",
+            "icon": "rocket",
+            "expanded": true,
+            "pages": ["en/introduction", "en/quickstart", "en/how-it-works"]
+          },
+          {
+            "group": "Platform",
+            "icon": "layers",
+            "expanded": true,
+            "pages": [
+              "en/platform/checklists",
+              "en/platform/task-management",
+              "en/platform/training",
+              "en/platform/analytics",
+              "en/platform/team-chat",
+              "en/platform/heads-up",
+              "en/platform/issues",
+              "en/platform/ai"
+            ]
+          },
+          {
+            "group": "Use cases",
+            "icon": "briefcase",
+            "expanded": true,
+            "pages": [
+              "en/use-cases/retail",
+              "en/use-cases/fb",
+              "en/use-cases/hospitality",
+              "en/use-cases/facilities"
+            ]
+          },
+          {
+            "group": "Account & Settings",
+            "icon": "settings",
+            "expanded": true,
+            "pages": [
+              "en/account/setup",
+              "en/account/roles-permissions",
+              "en/account/integrations",
+              "en/account/pricing"
+            ]
+          }
         ]
       }
     ]

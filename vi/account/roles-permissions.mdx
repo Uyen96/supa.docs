@@ -1,0 +1,70 @@
+---
+title: "Roles and permissions in Supa"
+description: "Understand Supa's role-based access model — assign the right level of access to owners, administrators, area managers, and frontline staff."
+---
+
+Every Supa team member has a role that controls what they can see and do across your organization. Supa uses role-based access control (RBAC) with four built-in roles designed to match how multi-location operations are typically structured. On the Growth plan and above, you can also customize individual permissions within each role to fit your specific workflows.
+
+## Built-in roles
+
+| Role | Scope | What they can do |
+|---|---|---|
+| **Owner / Admin** | Entire organization | Full access — manage organization settings, billing, all users, all locations, all templates, and analytics for the entire network |
+| **Area Manager** | Assigned locations | View submissions, assign tasks, manage staff, and see analytics for their assigned locations |
+| **Location Manager** | One location | Complete checklists, assign tasks to location staff, and view reports for their location |
+| **Staff** | One location | Complete assigned checklists and tasks, submit incident reports, and access training content |
+
+<Warning>
+  Only Owners and Admins can change billing settings or delete the organization. These actions are not available to any other role, even with customized permissions.
+</Warning>
+
+### Owner / Admin
+
+Owners and Admins have unrestricted access to every part of Supa. Use this role for operations leads, IT administrators, and anyone responsible for configuring the platform. There is no functional difference between Owner and Admin — the Owner designation is applied to the account that created the organization.
+
+### Area Manager
+
+Area Managers are typically regional or district managers responsible for multiple locations. They can view everything happening at their assigned locations, approve or escalate tasks, and manage the staff assigned to those sites — but they cannot access data from locations outside their assignment.
+
+### Location Manager
+
+Location Managers have a single-location view. They can run checklists, assign tasks to their team, and pull reports for their site. They cannot create or edit templates, and they cannot access other locations' data.
+
+### Staff
+
+Staff is the frontline role. Staff members see only the checklists and tasks assigned to them at their location. They can submit incident reports and complete training modules, but they cannot view reports, manage other users, or access settings.
+
+## Granular permissions
+
+<Note>
+  Granular permissions are available on the Growth plan and above.
+</Note>
+
+If the built-in roles don't precisely match your org structure, you can customize what each role can do. Common adjustments include:
+
+- Allowing Area Managers to create and publish templates
+- Restricting Staff to view-only mode on completed submissions
+- Granting Location Managers access to the analytics dashboard
+- Preventing Area Managers from deactivating team members
+
+To customize permissions, go to **Settings > Roles & Permissions** and select a role to edit.
+
+## Change a user's role
+
+1. Go to **Team > Members**.
+2. Select the team member you want to update.
+3. Click **Edit Role**.
+4. Choose the new role from the dropdown and confirm.
+
+The change takes effect immediately. The user will see updated navigation and access on their next page load or app restart.
+
+## Assign a user to specific locations
+
+Area Managers and Location Managers only see data for their assigned locations. To update a user's location assignment:
+
+1. Go to **Team > Members**.
+2. Select the team member.
+3. Click **Assign Locations**.
+4. Check or uncheck the relevant locations and save.
+
+Staff are assigned to a location when they're invited. You can update their assignment the same way.

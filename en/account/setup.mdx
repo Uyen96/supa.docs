@@ -1,0 +1,87 @@
+---
+title: "Configure your Supa organization and locations"
+description: "Step-by-step guide to setting up your Supa account, adding locations, configuring your organization profile, and preparing for your first deployment."
+---
+
+Setting up Supa means configuring two things: your **organization** (your company and its settings) and your **locations** (the individual stores, restaurants, hotel properties, or sites your team operates). Once both are in place, you can invite your team, assign checklists, and start verifying frontline work.
+
+## Get started
+
+<Steps>
+  <Step title="Sign up">
+    Go to [app.allsupa.com/signup](https://app.allsupa.com/signup) and enter your company name, work email, and a password. You can start a 30-day free trial on the Growth plan — no credit card required — or select a plan immediately if you already know what you need.
+  </Step>
+
+  <Step title="Create your organization">
+    After signing in for the first time, Supa will prompt you to complete your organization profile. Fill in:
+
+    - **Organization name** — the name that appears across your dashboard and in notifications
+    - **Industry** — used to surface relevant checklist templates
+    - **Logo** — shown in the app and in exported reports
+    - **Timezone** — used for scheduling, report timestamps, and compliance windows
+
+    You can update all of these later from **Settings > Organization**.
+  </Step>
+
+  <Step title="Add locations">
+    Each location represents one physical site. To add a location:
+
+    1. Go to **Settings > Locations > Add Location**.
+    2. Enter the location name and full address.
+    3. Set a **geofence radius** — the distance (in meters) staff must be within to complete GPS-verified checklists.
+
+    <Note>
+      The geofence radius determines how close staff must be to the location's coordinates to complete a GPS-verified checklist. The default radius is 100 meters.
+    </Note>
+
+    Repeat this for each site, or use bulk import (see [Managing locations](#managing-locations) below).
+  </Step>
+
+  <Step title="Invite team members">
+    Go to **Team > Members > Invite Member** and add people by email address. Assign each person a role — Owner/Admin, Area Manager, Location Manager, or Staff — and assign them to the relevant locations.
+
+    For a full breakdown of what each role can access, see [Roles and permissions](/account/roles-permissions).
+  </Step>
+
+  <Step title="Install the mobile app">
+    Frontline staff complete checklists and tasks on the Supa mobile app, available for iOS and Android. Search for **"Supa"** in the App Store or Google Play to download. The app is lightweight and works on any smartphone.
+
+    Staff log in with the same credentials they use on the web dashboard.
+  </Step>
+
+  <Step title="Create your first checklist">
+    Go to **Templates** and either:
+
+    - Pick a pre-built template from the library (filtered by industry), or
+    - Click **New Template** to build from scratch, or
+    - Use the AI template generator — describe what you want to check, and Supa will draft the template for you.
+
+    Publish the template and assign it to one or more locations to activate it.
+
+    <Tip>
+      Start with one pilot location to test your checklist templates before rolling out organization-wide. This lets you catch gaps in your process without affecting your full network.
+    </Tip>
+  </Step>
+</Steps>
+
+## Managing locations
+
+### Edit a location
+
+To update a location's name, address, or geofence radius, go to **Settings > Locations**, click the location, and select **Edit**. Changes take effect immediately.
+
+### Deactivate a location
+
+If a site closes temporarily or permanently, deactivate it instead of deleting it — this preserves all historical submission data. Go to **Settings > Locations**, open the location, and click **Deactivate**. Deactivated locations are hidden from the active location list but remain accessible in reports and analytics.
+
+### Bulk import locations via CSV
+
+If you're adding many locations at once, you can import them using a CSV file:
+
+1. Go to **Settings > Locations > Import**.
+2. Download the CSV template.
+3. Fill in the required columns: `name`, `address`, `city`, `country`, `geofence_radius_meters`.
+4. Upload the completed file and review the import preview.
+5. Click **Confirm Import**.
+
+Supa will validate each row and flag any addresses it cannot geocode for your review before saving.
