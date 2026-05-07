@@ -1,0 +1,118 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "almond",
+  "name": "Supa",
+  "description": "All-in-one operations platform for multi-location businesses — verify frontline work, enforce standards, and eliminate operational blind spots.",
+  "colors": {
+    "primary": "#664afc",
+    "light": "#b8a3fc",
+    "dark": "#664afc"
+  },
+  "favicon": "https://media.brand.dev/1dec103e-84d7-4975-b8be-b7e9362d9415.png",
+  "icons": {
+    "library": "lucide"
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs"
+  },
+  "contextual": {
+    "options": ["copy", "view", "assistant", "mcp", "add-mcp"]
+  },
+  "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Home",
+          "icon": "house",
+          "href": "/"
+        },
+        {
+          "anchor": "Đăng kí  dùng thử",
+          "icon": "rocket",
+          "href": "https://app.allsupa.com/signup"
+        },
+        {
+          "anchor": "Contact",
+          "icon": "life-buoy",
+          "href": "https://supa.vn/contact.html"
+        }
+      ]
+    },
+    "directory": "card",
+    "groups": [
+      {
+        "group": "Tính năng mới",
+        "pages": [
+          "checklist",
+          "dao-tao",
+          "thong-bao"
+        ]
+      },
+      {
+        "group": "Get Started",
+        "icon": "rocket",
+        "expanded": true,
+        "pages": [
+          "introduction",
+          "quickstart",
+          "how-it-works"
+        ]
+      },
+      {
+        "group": "Platform",
+        "icon": "layers",
+        "expanded": true,
+        "pages": [
+          "platform/checklists",
+          "platform/task-management",
+          "platform/training",
+          "platform/analytics",
+          "platform/team-chat",
+          "platform/heads-up",
+          "platform/issues",
+          "platform/ai"
+        ]
+      },
+      {
+        "group": "Trường hợp sử dụng",
+        "icon": "briefcase",
+        "expanded": true,
+        "pages": [
+          "use-cases/retail",
+          "use-cases/fb",
+          "use-cases/hospitality",
+          "use-cases/facilities"
+        ]
+      },
+      {
+        "group": "Account & Settings",
+        "icon": "settings",
+        "expanded": true,
+        "pages": [
+          "account/setup",
+          "account/roles-permissions",
+          "account/integrations",
+          "account/pricing"
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "https://media.brand.dev/84614cec-951f-43a6-b532-8341185f2baf.png",
+    "dark": "https://media.brand.dev/84614cec-951f-43a6-b532-8341185f2baf.png"
+  },
+  "navbar": {
+    "links": [],
+    "primary": {
+      "type": "button",
+      "label": "Start Free Trial",
+      "href": "https://app.allsupa.com/signup"
+    }
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/allsupa",
+      "linkedin": "https://linkedin.com/company/allsupa"
+    }
+  }
+}

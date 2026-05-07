@@ -1,0 +1,85 @@
+---
+title: "How Supa works: from assignment to insight"
+description: "Understand Supa's closed-loop verification system — assign tasks at HQ, execute with proof on mobile, monitor in real time, and improve with data."
+---
+
+Most operations tools track activity. Supa verifies it. The platform is built around a four-step closed loop that starts at head office and ends with data you can act on — with tamper-proof proof of execution at every stage. Whether you are managing 10 locations or 1,000, the same system runs on every site, every day.
+
+## The four-step closed loop
+
+<Steps>
+  <Step title="Assign & deploy">
+    Operations teams at head office create standardized checklists directly in the Supa dashboard. Each template can include task items of any type — text responses, numeric readings, pass/fail confirmations, or live photos — and any item can be marked **critical** to trigger automatic escalation if skipped.
+
+    SOP videos, reference images, and written instructions can be attached to individual checklist items, so frontline staff have everything they need to execute correctly without calling a manager.
+
+    Once a template is ready, you publish it to any number of locations in a single action. There is no manual distribution, no email chain, and no version control problem. Every location gets the same template at the same time.
+
+    <Tip>
+      Use Supa AI to draft a checklist from a plain-language description in seconds. Type what you need — for example, "Weekly food safety audit for a restaurant kitchen" — and review the generated template before publishing.
+    </Tip>
+  </Step>
+
+  <Step title="Execute with proof">
+    Frontline staff open the Supa app on their iOS or Android device. Before the checklist opens, Supa checks their GPS coordinates against the location's geofence. If they are not physically inside the defined perimeter, the checklist remains locked.
+
+    Once inside, staff work through each task in the order defined by the template. For any item that requires a photo, Supa opens the device camera directly — the gallery is inaccessible. The photo must be taken in the moment, at the location. This is not a policy; it is a technical constraint enforced at the app level.
+
+    Every response is automatically stamped with:
+
+    - **Timestamp** — the exact time the item was completed
+    - **GPS coordinate** — the precise location of the device at the time of the response
+    - **Submitter identity** — the name and role of the staff member completing the check
+
+    When the last item is submitted, the completed check is immediately visible on the dashboard at HQ.
+  </Step>
+
+  <Step title="Real-time monitoring">
+    Area Managers and Operations Directors can watch completion rates update live across their entire network from the Supa dashboard. Each location shows its current check status — not started, in progress, or completed — and the compliance score for each submitted check.
+
+    If a task marked as critical is skipped or a check is not started by its scheduled time, Supa fires an automated escalation alert. The alert goes to the assigned Area Manager immediately, without any manual intervention. Managers do not need to chase locations for status updates — Supa surfaces problems the moment they occur.
+
+    <Warning>
+      Escalation alerts are only sent for tasks marked as **critical** in the checklist template. Review your templates and mark the items that genuinely require immediate management attention so alerts remain meaningful and are not ignored.
+    </Warning>
+  </Step>
+
+  <Step title="Analyze & improve">
+    Operations Directors use the analytics dashboard to review aggregated compliance data across the network. Every completed check contributes to location-level and network-level compliance scores, giving leadership an objective, data-driven picture of execution quality.
+
+    The analytics layer surfaces:
+
+    - **Compliance trends** — how individual locations and the overall network are trending over time
+    - **Store performance rankings** — which locations consistently meet standards and which are falling behind
+    - **Systemic bottlenecks** — which specific checklist items have the highest failure rate across the network, indicating a process, training, or resource problem
+    - **Area Manager performance** — which managers are responding to escalations and which are not
+
+    Reports can be exported for leadership review, regulatory submissions, or franchise compliance audits.
+  </Step>
+</Steps>
+
+## GPS verification
+
+Every check in Supa is geofence-locked. When you add a location to Supa and set its address, the platform generates a GPS geofence around that address. The radius is configurable to accommodate sites where staff may be operating across a larger physical footprint — a hotel complex, a campus, or a warehouse.
+
+When a staff member opens the Supa app and selects a checklist, the app checks their current GPS coordinates against the active geofence for that location. If they are outside the perimeter — whether because they are in the wrong building, working from home, or attempting to complete the check remotely — the checklist does not open. There is no override for frontline staff. Only administrators can unlock a check outside a geofence, and that action is logged.
+
+This means your compliance data reflects what actually happened at the physical location, not what someone typed into a form from a desk.
+
+<Info>
+  GPS geofencing requires location permissions to be granted to the Supa app on the staff member's device. The app prompts for this permission on first launch. Location data is only used during active check submissions and is not tracked continuously.
+</Info>
+
+## Live photo capture
+
+For checklist items that require photographic evidence — a clean surface, a stocked display, a temperature reading, a fire exit clear of obstruction — Supa enforces live capture at the hardware level.
+
+When a staff member reaches a photo item, Supa opens the device camera directly. The gallery picker is blocked; it is not greyed out or hidden behind a confirmation dialog, it simply does not appear. The photo must be taken through the Supa app at that moment. This eliminates the practice of uploading old or staged photos to satisfy a checklist requirement — sometimes called pencil-whipping — that makes paper and many digital checklists unreliable.
+
+Every photo captured through Supa is automatically embedded with:
+
+- **Timestamp** — the date and time the shutter was pressed, taken from the device clock
+- **GPS stamp** — the coordinates of the device at the time of capture
+- **Check context** — the name of the checklist, the specific item, and the submitter
+
+These metadata are stored with the photo in Supa's audit trail and cannot be edited after submission. If a compliance question arises later, you have irrefutable, tamper-proof visual evidence of exactly what was done, by whom, and when.

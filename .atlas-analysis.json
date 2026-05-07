@@ -1,0 +1,75 @@
+{
+  "projectType": "saas",
+  "projectName": "Supa",
+  "projectDescription": "An all-in-one operations platform for multi-location businesses to verify frontline work, enforce standards, and eliminate operational blind spots via GPS-locked checklists, task management, training, and real-time analytics.",
+  "theme": "almond",
+  "primaryColor": "#664afc",
+  "lightColor": "#b8a3fc",
+  "darkColor": null,
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "how-it-works"
+            ]
+          },
+          {
+            "group": "Platform",
+            "pages": [
+              "platform/checklists",
+              "platform/task-management",
+              "platform/training",
+              "platform/analytics",
+              "platform/team-chat",
+              "platform/heads-up",
+              "platform/issues",
+              "platform/ai"
+            ]
+          },
+          {
+            "group": "Use Cases",
+            "pages": [
+              "use-cases/retail",
+              "use-cases/fb",
+              "use-cases/hospitality",
+              "use-cases/facilities"
+            ]
+          },
+          {
+            "group": "Account & Settings",
+            "pages": [
+              "account/setup",
+              "account/roles-permissions",
+              "account/integrations",
+              "account/pricing"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "GPS-locked checklists with live photo verification",
+    "Task management with auto-escalation",
+    "Micro-learning and SOP training embedded in workflows",
+    "Real-time analytics and compliance dashboards",
+    "Team chat with contextual task linking",
+    "Heads Up broadcast announcements with read receipts",
+    "Incident reporting and investigations",
+    "Supa AI for checklist and training generation in 15+ languages"
+  ],
+  "publicApiSurface": [
+    "API access (Enterprise plan)",
+    "Webhooks (Enterprise plan)",
+    "SSO / SAML integration",
+    "Mobile app (iOS & Android)",
+    "Partner portal",
+    "Analytics export"
+  ]
+}
