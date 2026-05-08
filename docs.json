@@ -42,12 +42,19 @@
       {
         "language": "vi",
         "directory": "card",
-        "groups": [
+        "pages": [
+          "dang-ky-dung-thu",
+          "trang-chu",
+          "lien-he",
           {
             "group": "Get Started",
             "icon": "rocket",
             "expanded": true,
-            "pages": ["vi/introduction", "vi/quickstart", "vi/how-it-works"]
+            "pages": [
+              "vi/introduction",
+              "vi/quickstart",
+              "vi/how-it-works"
+            ]
           },
           {
             "group": "Platform",
@@ -91,7 +98,7 @@
             ]
           },
           {
-            "group": "Account & Settings",
+            "group": "Cài đặt tài khoản",
             "icon": "settings",
             "expanded": true,
             "pages": [
