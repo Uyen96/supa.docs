@@ -46,7 +46,13 @@
         "groups": [
           {
             "group": "Tính năng mới",
-            "pages": ["vi/checklist", "vi/dao-tao", "vi/thong-bao"]
+            "pages": [
+              "vi/checklist",
+              "vi/dao-tao",
+              "vi/thong-bao",
+              "vi/cong-viec",
+              "vi/dat-lich"
+            ]
           },
           {
             "group": "Get Started",
