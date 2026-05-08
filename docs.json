@@ -23,32 +23,20 @@
       {
         "language": "vi",
         "default": true,
-        "navbar": {
-          "links": [
-            {
-              "label": "Trang chủ",
-              "href": "/vi"
-            },
-            {
-              "label": "Đăng ký dùng thử",
-              "href": "https://app.allsupa.com/signup"
-            },
-            {
-              "label": "Liên hệ",
-              "href": "https://supa.vn/contact.html"
-            }
-          ],
-          "primary": {
-            "type": "button",
-            "label": "Dùng thử miễn phí",
-            "href": "https://app.allsupa.com/signup"
-          }
-        },
         "directory": "card",
         "pages": [
-          "trang-chu",
-          "dang-ky-dung-thu",
-          "dat-lich-demo",
+          {
+            "label": "Trang chủ",
+            "page": "vi/home"
+          },
+          {
+            "label": "Đăng ký dùng thử",
+            "href": "https://app.allsupa.com/signup"
+          },
+          {
+            "label": "Liên hệ",
+            "href": "https://supa.vn/contact.html"
+          },
           {
             "group": "Get Started",
             "icon": "rocket",
@@ -115,6 +103,7 @@
       },
       {
         "language": "en",
+        "default": true,
         "navbar": {
           "links": [
             {
@@ -138,9 +127,18 @@
         },
         "directory": "card",
         "pages": [
-          "home",
-          "signup-for-free",
-          "book-a-demo",
+          {
+            "label": "Home",
+            "page": "en/home"
+          },
+          {
+            "label": "Start free trial",
+            "href": "https://app.allsupa.com/signup"
+          },
+          {
+            "label": "Book a demo",
+            "href": "https://calendly.com/allsupa-marketing/30min"
+          },
           {
             "group": "Get Started",
             "icon": "rocket",
