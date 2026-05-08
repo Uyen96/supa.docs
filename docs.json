@@ -44,7 +44,7 @@
           },
           {
             "group": "Tính năng mới",
-            "pages": ["vi/checklist", "vi/dao-tao", "vi/thong-bao"]
+            "pages": ["vi/thong-bao"]
           },
           {
             "group": "Get Started",
@@ -130,7 +130,7 @@
           },
           {
             "group": "What's new",
-            "pages": ["en/checklist", "en/dao-tao", "en/thong-bao"]
+            "pages": ["en/thong-bao"]
           },
           {
             "group": "Get Started",
