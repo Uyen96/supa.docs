@@ -22,30 +22,38 @@
     "languages": [
       {
         "language": "vi",
-        "default": true,
-        "directory": "card",
-        "pages": [
-          {
-            "label": "Trang chủ",
-            "page": "vi/home"
-          },
-          {
-            "label": "Đăng ký dùng thử",
+        "navbar": {
+          "links": [
+            {
+              "label": "Trang chủ",
+              "href": "/vi"
+            },
+            {
+              "label": "Đăng ký dùng thử",
+              "href": "https://app.allsupa.com/signup"
+            },
+            {
+              "label": "Liên hệ",
+              "href": "https://supa.vn/contact.html"
+            }
+          ],
+          "primary": {
+            "type": "button",
+            "label": "Dùng thử miễn phí",
             "href": "https://app.allsupa.com/signup"
-          },
+          }
+        },
+        "directory": "card",
+        "groups": [
           {
-            "label": "Liên hệ",
-            "href": "https://supa.vn/contact.html"
+            "group": "Tính năng mới",
+            "pages": ["vi/checklist", "vi/dao-tao", "vi/thong-bao"]
           },
           {
             "group": "Get Started",
             "icon": "rocket",
             "expanded": true,
-            "pages": [
-              "vi/introduction",
-              "vi/quickstart",
-              "vi/how-it-works"
-            ]
+            "pages": ["vi/introduction", "vi/quickstart", "vi/how-it-works"]
           },
           {
             "group": "Platform",
@@ -67,13 +75,13 @@
             "icon": "layers",
             "expanded": true,
             "pages": [
-              "vi/features/checklists",
+              "vi/features/checklists-audits",
               "vi/features/task-management",
               "vi/features/training",
               "vi/features/analytics",
               "vi/features/team-chat",
               "vi/features/heads-up",
-              "vi/features/issues",
+              "vi/features/issues-investigations",
               "vi/features/ai"
             ]
           },
@@ -108,7 +116,7 @@
           "links": [
             {
               "label": "Home",
-              "href": "/en"
+              "href": "/"
             },
             {
               "label": "Start free trial",
@@ -126,28 +134,16 @@
           }
         },
         "directory": "card",
-        "pages": [
+        "groups": [
           {
-            "label": "Home",
-            "page": "en/home"
-          },
-          {
-            "label": "Start free trial",
-            "href": "https://app.allsupa.com/signup"
-          },
-          {
-            "label": "Book a demo",
-            "href": "https://calendly.com/allsupa-marketing/30min"
+            "group": "What's new",
+            "pages": ["en/checklist", "en/dao-tao", "en/thong-bao"]
           },
           {
             "group": "Get Started",
             "icon": "rocket",
             "expanded": true,
-            "pages": [
-              "en/introduction",
-              "en/quickstart",
-              "en/how-it-works"
-            ]
+            "pages": ["en/introduction", "en/quickstart", "en/how-it-works"]
           },
           {
             "group": "Platform",
@@ -165,17 +161,17 @@
             ]
           },
           {
-            "group": "New Features",
+            "group": "Features",
             "icon": "layers",
             "expanded": true,
             "pages": [
-              "en/features/checklists",
+              "en/features/checklists-audits",
               "en/features/task-management",
               "en/features/training",
               "en/features/analytics",
               "en/features/team-chat",
               "en/features/heads-up",
-              "en/features/issues",
+              "en/features/issues-investigations",
               "en/features/ai"
             ]
           },
@@ -210,12 +206,7 @@
     "dark": "https://media.brand.dev/84614cec-951f-43a6-b532-8341185f2baf.png"
   },
   "navbar": {
-    "links": [],
-    "primary": {
-      "type": "button",
-      "label": "Start Free Trial",
-      "href": "https://app.allsupa.com/signup"
-    }
+    "links": []
   },
   "footer": {
     "socials": {
