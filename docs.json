@@ -19,29 +19,31 @@
     "options": ["copy", "view", "assistant", "mcp", "add-mcp"]
   },
   "navigation": {
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Trang chủ",
-          "icon": "house",
-          "href": "/"
-        },
-        {
-          "anchor": "Đăng kí  dùng thử",
-          "icon": "rocket",
-          "href": "https://app.allsupa.com/signup"
-        },
-        {
-          "anchor": "Liên hệ",
-          "icon": "life-buoy",
-          "href": "https://supa.vn/contact.html"
-        }
-      ]
-    },
     "languages": [
       {
         "language": "vi",
         "default": true,
+        "navbar": {
+          "links": [
+            {
+              "label": "Trang chủ",
+              "href": "/vi"
+            },
+            {
+              "label": "Đăng ký dùng thử",
+              "href": "https://app.allsupa.com/signup"
+            },
+            {
+              "label": "Liên hệ",
+              "href": "https://supa.vn/contact.html"
+            }
+          ],
+          "primary": {
+            "type": "button",
+            "label": "Dùng thử miễn phí",
+            "href": "https://app.allsupa.com/signup"
+          }
+        },
         "directory": "card",
         "groups": [
           
@@ -107,6 +109,27 @@
       },
       {
         "language": "en",
+        "navbar": {
+          "links": [
+            {
+              "label": "Home",
+              "href": "/en"
+            },
+            {
+              "label": "Start free trial",
+              "href": "https://app.allsupa.com/signup"
+            },
+            {
+              "label": "Contact",
+              "href": "https://supa.vn/contact.html"
+            }
+          ],
+          "primary": {
+            "type": "button",
+            "label": "Start Free Trial",
+            "href": "https://app.allsupa.com/signup"
+          }
+        },
         "directory": "card",
         "groups": [
           {
