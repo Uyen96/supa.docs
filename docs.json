@@ -19,32 +19,29 @@
     "options": ["copy", "view", "assistant", "mcp", "add-mcp"]
   },
   "navigation": {
+   
     "languages": [
       {
         "language": "vi",
-        "navbar": {
-          "links": [
-            {
-              "label": "Trang chủ",
-              "href": "/vi"
-            },
-            {
-              "label": "Đăng ký dùng thử",
-              "href": "https://app.allsupa.com/signup"
-            },
-            {
-              "label": "Liên hệ",
-              "href": "https://supa.vn/contact.html"
-            }
-          ],
-          "primary": {
-            "type": "button",
-            "label": "Dùng thử miễn phí",
-            "href": "https://app.allsupa.com/signup"
-          }
-        },
         "directory": "card",
         "groups": [
+          {
+            "group": "Menu",
+            "pages": [
+              {
+                "label": "Trang chủ",
+                "page": "vi/index"
+              },
+              {
+                "label": "Đăng ký dùng thử",
+                "href": "https://app.allsupa.com/signup"
+              },
+              {
+                "label": "Liên hệ",
+                "href": "https://supa.vn/contact.html"
+              }
+            ]
+          },
           {
             "group": "Tính năng mới",
             "pages": ["vi/checklist", "vi/dao-tao", "vi/thong-bao"]
@@ -112,29 +109,25 @@
       {
         "language": "en",
         "default": true,
-        "navbar": {
-          "links": [
-            {
-              "label": "Home",
-              "href": "/"
-            },
-            {
-              "label": "Start free trial",
-              "href": "https://app.allsupa.com/signup"
-            },
-            {
-              "label": "Contact",
-              "href": "https://supa.vn/contact.html"
-            }
-          ],
-          "primary": {
-            "type": "button",
-            "label": "Start Free Trial",
-            "href": "https://app.allsupa.com/signup"
-          }
-        },
         "directory": "card",
         "groups": [
+          {
+            "group": "Menu",
+            "pages": [
+              {
+                "label": "Home",
+                "page": "en/index"
+              },
+              {
+                "label": "Start free trial",
+                "href": "https://app.allsupa.com/signup"
+              },
+              {
+                "label": "Contact",
+                "href": "https://supa.vn/contact.html"
+              }
+            ]
+          },
           {
             "group": "What's new",
             "pages": ["en/checklist", "en/dao-tao", "en/thong-bao"]
