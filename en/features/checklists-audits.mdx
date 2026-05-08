@@ -1,0 +1,137 @@
+---
+title: "Checklists & Audits: GPS-Verified Field Compliance"
+sidebarTitle: "Checklists & Audits"
+description: "Use Supa's mobile-first checklists to standardize field operations and run GPS-verified audits with live photo proof across all your locations."
+icon: "clipboard-check"
+---
+
+Supa turns any standard operating procedure into a mobile checklist your frontline team can complete from their phone — with GPS verification to confirm they're on-site and live photo proof to confirm work is done. This page covers how to build checklists, configure audits, and view real-time results.
+
+## Key capabilities
+
+<AccordionGroup>
+  <Accordion title="Question types">
+    Supa supports multiple question formats so you can capture exactly the data you need:
+
+    - **Yes/No** — quick binary answers for pass/fail checks
+    - **Pass/Fail** — compliance-oriented with automatic scoring
+    - **Photo upload** — require a live camera photo as evidence
+    - **Text** — free-form written responses
+    - **Number** — numeric inputs (temperature readings, counts, etc.)
+    - **Rating scale** — 1–5 or 1–10 scales for subjective assessments
+    - **Dropdown** — single-select from a predefined list
+  </Accordion>
+
+  <Accordion title="Conditional logic">
+    Show follow-up questions based on previous answers. For example, if a worker answers **Fail** on a hygiene check, Supa can automatically surface a corrective action field asking them to describe the issue and attach a photo. Conditional logic keeps checklists focused and reduces noise for compliant steps.
+  </Accordion>
+
+  <Accordion title="Required photo evidence">
+    Mark any question as requiring a live camera photo. Workers cannot submit a library image — Supa forces the camera to open, ensuring evidence is captured in the moment. Use this for high-stakes checks like equipment condition or display compliance.
+  </Accordion>
+
+  <Accordion title="Scheduling and recurrence">
+    Assign checklists on a daily, weekly, monthly, or fully custom schedule. Supa pushes a notification to the assigned worker when a checklist is due and tracks whether it was completed on time.
+  </Accordion>
+
+  <Accordion title="Location assignment and GPS geofencing">
+    Assign each checklist to one or more specific stores or sites. Enable GPS geofencing to require workers to be within a set radius of the location before they can submit. This eliminates remote or fraudulent completions.
+  </Accordion>
+
+  <Accordion title="Scoring">
+    Supa auto-calculates a score for every submission based on question weights you define. Scores appear in the Analytics dashboard so you can compare compliance across locations and over time.
+  </Accordion>
+
+  <Accordion title="Corrective actions">
+    Any failed item can automatically create a task assigned to the responsible person, complete with a deadline and photo evidence requirement. Failed items never fall through the cracks.
+  </Accordion>
+</AccordionGroup>
+
+## Creating a template
+
+<Steps>
+  <Step title="Open the Templates menu">
+    <Frame>
+      ![Templates 1](/images/Templates-1.png)
+    </Frame>
+
+    Log in to the Supa web dashboard and navigate to \*\*Templates \*\*in the left sidebar.
+  </Step>
+  <Step title="Create a new template">
+    Click \*\*Create template \*\*and give it a descriptive name (e.g., "Daily Opening — Nyna Coffee").
+
+    <Frame>
+      ![Templates 2](/images/Templates-2.png)
+    </Frame>
+  </Step>
+  <Step title="Add questions">
+    Use the template builder to add question items one by one, you can select from several type of question (text, number, multichoice or single choice..).
+
+    > Each question also come with its own set of configure and logic, you can explore to find out what work best in your case.
+
+    <Frame>
+      ![Templates 3](/images/Templates-3.png)
+    </Frame>
+  </Step>
+  <Step title="Manage template access">
+    In the **Access** tab, you can set the permission for this template. Here you can select who can see and do checklist based on this template, who can edit the template itself. You can also determine who can see, edit, evaluate checklist results come from this template.
+
+    <Frame>
+      ![Templates 4](/images/Templates-4.png)
+    </Frame>
+  </Step>
+  <Step title="Config your alert preference">
+    Click on **Alert Config**. Here you can set various way of alert people about the checklist based on this template.
+  </Step>
+  <Step title="Publish">
+    Click **Publish**. Your team can now see the template and make checklist immediately in the Supa mobile app.
+  </Step>
+</Steps>
+
+## Schedule a recurring checklist
+
+<Steps>
+  <Step title="Open the schedule menu">
+    Log in to the Supa web dashboard and navigate to **Schedules** menu\*\* \*\*in the left sidebar.
+
+    <Frame>
+      ![Schedule 1](/images/Schedule-1.png)
+    </Frame>
+  </Step>
+  <Step title="Create a new schedule">
+    Click \*\*Create schedule \*\*and give it a descriptive name (e.g., "Daily Opening Checklist — Nyna Coffee").
+
+    > You must also select what template you will use in this schedule.
+
+    <Frame>
+      ![Schedule 2](/images/Schedule-2.png)
+    </Frame>
+  </Step>
+  <Step title="Configure scheduling, locations, and GPS">
+    Set how often the checklist runs, which locations it applies to, and whether GPS geofencing is required. Enable photo requirements on individual questions as needed.
+  </Step>
+  <Step title="Save and run">
+    Click **Save**. Your team can now see the schedule and make checklist immediately in the Supa mobile app when the next cycle begin.
+  </Step>
+</Steps>
+
+## Audit mode
+
+Use audit mode for unannounced site inspections. Managers open the Supa mobile app, select the location, and run the audit checklist on the spot. All submissions — including GPS coordinates and timestamps — are captured in real time and visible immediately in the dashboard.
+
+<Tip>
+  Combine audit checklists with corrective action auto-creation so that any failed item during an inspection immediately becomes an assigned task with a resolution deadline.
+</Tip>
+
+## Viewing results
+
+Every submission appears in real time in the **Analytics** dashboard. From there you can:
+
+- Filter by location, date range, or team member
+- View individual scores and drill down to question-level answers
+- See attached photos inline
+- Export submission data to CSV or PDF for compliance records
+
+<Note>
+  Checklist submissions include a complete audit trail: the worker's name, GPS coordinates at the time of submission, device timestamp, and all photo evidence.
+</Note>

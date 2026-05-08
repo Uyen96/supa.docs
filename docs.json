@@ -129,6 +129,21 @@
             ]
           },
           {
+            "group": "New Features",
+            "icon": "layers",
+            "expanded": true,
+            "pages": [
+              "en/features/checklists",
+              "en/features/task-management",
+              "en/features/training",
+              "en/features/analytics",
+              "en/features/team-chat",
+              "en/features/heads-up",
+              "en/features/issues",
+              "en/features/ai"
+            ]
+          },
+          {
             "group": "Use cases",
             "icon": "briefcase",
             "expanded": true,
