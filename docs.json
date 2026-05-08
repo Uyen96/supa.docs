@@ -44,16 +44,7 @@
         "default": true,
         "directory": "card",
         "groups": [
-          {
-            "group": "Tính năng mới",
-            "pages": [
-              "vi/checklist",
-              "vi/dao-tao",
-              "vi/thong-bao",
-              "vi/cong-viec",
-              "vi/dat-lich"
-            ]
-          },
+          
           {
             "group": "Get Started",
             "icon": "rocket",
@@ -73,6 +64,21 @@
               "vi/platform/heads-up",
               "vi/platform/issues",
               "vi/platform/ai"
+            ]
+          },
+          {
+            "group": "Tính năng",
+            "icon": "layers",
+            "expanded": true,
+            "pages": [
+              "vi/features/checklists",
+              "vi/features/task-management",
+              "vi/features/training",
+              "vi/features/analytics",
+              "vi/features/team-chat",
+              "vi/features/heads-up",
+              "vi/features/issues",
+              "vi/features/ai"
             ]
           },
           {

@@ -1,0 +1,92 @@
+---
+title: "Issues & Investigations: Báo cáo và theo dõi sự cố"
+sidebarTitle: "Issues & Investigations"
+description: "Báo cáo sự cố tại hiện trường theo thời gian thực kèm bằng chứng ảnh, triển khai điều tra có cấu trúc và lưu audit trail rõ ràng từ lúc báo cáo đến khi xử lý xong."
+icon: "ticket"
+---
+
+Module Issues & Investigations của Supa giúp nhân viên tuyến đầu báo cáo sự cố nhanh và có cấu trúc ngay trên điện thoại — đồng thời cung cấp cho quản lý công cụ để điều tra, xử lý và theo dõi mọi báo cáo từ một dashboard duy nhất. Trang này hướng dẫn cách gửi issue, quản lý điều tra và dùng audit history cho báo cáo tuân thủ.
+
+## Tính năng chính
+
+<AccordionGroup>
+  <Accordion title="Loại issue tùy biến">
+    Định nghĩa các nhóm issue phù hợp với vận hành của bạn: sự cố an toàn, hỏng thiết bị, vi phạm vệ sinh, phàn nàn khách hàng, hoặc bất kỳ loại nào khác. Admin cấu hình issue types trong phần cài đặt dashboard.
+  </Accordion>
+
+  <Accordion title="Bằng chứng ảnh và video">
+    Nhân viên đính kèm bằng chứng ảnh/video ngay tại thời điểm báo cáo, chụp/quay trực tiếp từ camera điện thoại. Bằng chứng có timestamp được lưu cùng issue record và không thể chỉnh sửa sau khi gửi.
+  </Accordion>
+
+  <Accordion title="Mức độ nghiêm trọng">
+    Phân loại mỗi issue là **Low**, **Medium**, **High** hoặc **Critical**. Mức độ nghiêm trọng quyết định quản lý nào sẽ được thông báo và issue cần được xử lý nhanh đến mức nào.
+  </Accordion>
+
+  <Accordion title="Tự động thông báo">
+    Quản lý nhận push notification ngay khi có issue được báo cáo tại địa điểm của họ. Issue mức Critical cũng có thể kích hoạt email để đảm bảo không ai bỏ lỡ báo cáo khẩn.
+  </Accordion>
+
+  <Accordion title="Quy trình điều tra">
+    Gán người điều tra, đặt hạn xử lý và theo dõi kết quả ngay trong issue record. Người điều tra có thể thêm ghi chú và bằng chứng bổ sung trong quá trình điều tra.
+  </Accordion>
+
+  <Accordion title="Theo dõi xử lý">
+    Đánh dấu issue đã được xử lý (resolved) kèm ghi chú kết quả và tài liệu về corrective action đã thực hiện. Bản ghi sẽ bị khóa sau khi resolve và được lưu trong audit history.
+  </Accordion>
+
+  <Accordion title="Audit trail đầy đủ">
+    Mỗi issue có log đầy đủ và bất biến: ai báo cáo, khi nào, từ địa điểm nào, ai điều tra, các phát hiện nào được thêm vào và issue được xử lý khi nào/như thế nào.
+  </Accordion>
+
+  <Accordion title="Analytics">
+    Theo dõi tần suất issue theo loại, địa điểm, mức độ nghiêm trọng và khoảng thời gian. Phát hiện các vấn đề lặp lại trên toàn hệ thống trước khi chúng trở nên nghiêm trọng.
+  </Accordion>
+</AccordionGroup>
+
+## Báo cáo một issue
+
+<Steps>
+  <Step title="Mở ứng dụng Supa">
+    Mở Supa trên thiết bị iOS hoặc Android.
+  </Step>
+  <Step title="Chọn Report Issue">
+    Chạm nút **Report Issue** ở màn hình Home hoặc trong menu chính.
+  </Step>
+  <Step title="Chọn loại issue và mức độ">
+    Chọn nhóm mô tả đúng nhất sự cố và đặt mức độ nghiêm trọng.
+  </Step>
+  <Step title="Thêm mô tả và bằng chứng">
+    Viết mô tả ngắn và đính kèm ảnh/video từ camera. Hãy thêm càng nhiều chi tiết càng tốt ngay tại thời điểm xảy ra sự cố.
+  </Step>
+  <Step title="Gửi">
+    Chạm **Submit**. Quản lý sẽ nhận thông báo ngay kèm toàn bộ báo cáo.
+  </Step>
+</Steps>
+
+## Quản lý điều tra
+
+<Steps>
+  <Step title="Mở issue trên dashboard">
+    Đăng nhập Supa web dashboard và vào **Issues**. Chọn issue bạn muốn điều tra.
+  </Step>
+  <Step title="Bắt đầu điều tra">
+    Nhấp **Start Investigation** và gán người điều tra trong đội. Thiết lập hạn xử lý.
+  </Step>
+  <Step title="Ghi nhận phát hiện">
+    Người điều tra ghi nhận phát hiện, đính kèm bằng chứng bổ sung và cập nhật ghi chú điều tra khi thu thập thêm thông tin.
+  </Step>
+  <Step title="Resolve issue">
+    Khi điều tra xong, nhấp **Resolve** và ghi lại corrective action đã thực hiện. Kèm theo bằng chứng hoặc xác nhận (sign-off) nếu có.
+  </Step>
+  <Step title="Rà soát audit record">
+    Issue đã hoàn tất — bao gồm toàn bộ timeline từ lúc báo cáo đến khi xử lý xong — được lưu trong audit history và có thể tìm kiếm.
+  </Step>
+</Steps>
+
+<Tip>
+  Issue được đánh dấu trong checklist thông qua câu trả lời bị fail có thể tự động tạo issue report, tự điền sẵn câu hỏi, ảnh bằng chứng và địa điểm. Điều này nối liền quy trình tuân thủ với quy trình quản lý sự cố.
+</Tip>
+
+<Note>
+  Audit trail record sẽ ở chế độ chỉ đọc sau khi issue được resolve. Điều này bảo vệ tính toàn vẹn của tài liệu tuân thủ và ngăn việc chỉnh sửa “hậu kỳ”.
+</Note>

@@ -1,0 +1,81 @@
+---
+title: "Task Management: Giao việc và theo dõi công việc tuyến đầu"
+sidebarTitle: "Task Management"
+description: "Tạo task, đặt hạn chót và theo dõi trạng thái hoàn thành theo thời gian thực trên mọi địa điểm — kèm bằng chứng ảnh và quy trình corrective action."
+icon: "copy-check"
+---
+
+Module task management của Supa giúp bạn giao việc cho từng cá nhân hoặc cả đội, đặt deadline và theo dõi hoàn thành kèm bằng chứng ảnh — ngay trên web dashboard hoặc ứng dụng mobile. Trang này hướng dẫn cách tạo task, cấu hình yêu cầu xác minh và dùng dashboard để theo dõi công việc hiện trường trên nhiều địa điểm.
+
+## Tính năng chính
+
+<AccordionGroup>
+  <Accordion title="Tạo task">
+    Tạo task với tiêu đề, mô tả, hạn chót, mức độ ưu tiên và người được giao. Đính kèm ảnh hoặc file để nhân viên có đủ ngữ cảnh trước khi bắt đầu.
+  </Accordion>
+
+  <Accordion title="Bằng chứng ảnh khi hoàn thành">
+    Yêu cầu nhân viên chụp ảnh trực tiếp từ camera khi đánh dấu task hoàn thành. Quản lý có bằng chứng trực quan rằng công việc đã làm đúng — không chỉ “ký xác nhận” bằng văn bản.
+  </Accordion>
+
+  <Accordion title="Sub-tasks">
+    Chia công việc phức tạp thành các bước theo thứ tự bằng sub-task. Nhân viên tick hoàn thành từng bước theo trình tự, và task cha chỉ đóng khi tất cả sub-task đã xong.
+  </Accordion>
+
+  <Accordion title="Corrective action từ checklist">
+    Khi nhân viên fail một mục trong checklist, Supa tự động tạo task corrective action, tự điền sẵn câu hỏi bị fail, ảnh bằng chứng và địa điểm liên quan. Không cần tạo thủ công.
+  </Accordion>
+
+  <Accordion title="Task lặp lại">
+    Thiết lập task lặp theo lịch ngày/tuần/tháng. Supa tự tạo các lần lặp mới và thông báo cho người được giao khi đến hạn.
+  </Accordion>
+
+  <Accordion title="Quy trình trạng thái">
+    Task đi theo vòng đời rõ ràng: **To Do → In Progress → Done → Verified**. Quản lý có thể yêu cầu bước xác minh trước khi task được đóng hoàn toàn.
+  </Accordion>
+
+  <Accordion title="Quản lý xác minh">
+    Bật manager verification để yêu cầu quản lý xem ảnh hoàn thành và phê duyệt task trước khi đóng. Điều này thêm một lớp kiểm soát chất lượng cho các công việc quan trọng.
+  </Accordion>
+
+  <Accordion title="Push notifications">
+    Nhân viên nhận push notification khi được giao task và nhận nhắc nhở khi sắp đến hạn hoặc quá hạn. Quản lý cũng được thông báo khi task quá hạn.
+  </Accordion>
+</AccordionGroup>
+
+## Tạo một task
+
+<Steps>
+  <Step title="Mở Tasks">
+    Vào **Tasks** trên Supa web dashboard hoặc chạm tab **Tasks** trong ứng dụng mobile.
+  </Step>
+  <Step title="Tạo task mới">
+    Nhấp/chạm **New Task**.
+  </Step>
+  <Step title="Điền thông tin">
+    Thiết lập tiêu đề, mô tả, người được giao, hạn chót, mức độ ưu tiên và địa điểm. Thêm ảnh/file tham chiếu nếu nhân viên cần.
+  </Step>
+  <Step title="Bật yêu cầu ảnh nếu cần">
+    Bật **Require photo on completion** để buộc nhân viên chụp ảnh trực tiếp trước khi có thể đánh dấu task hoàn thành.
+  </Step>
+  <Step title="Lưu">
+    Nhấp **Save**. Task sẽ xuất hiện ngay trong ứng dụng mobile của người được giao, kèm push notification.
+  </Step>
+</Steps>
+
+## Dashboard theo dõi
+
+Task dashboard giúp quản lý nắm toàn cảnh trạng thái công việc hiện trường trong tổ chức:
+
+- **Lọc (Filter)** theo location, team, assignee, status hoặc due date
+- **Sắp xếp (Sort)** theo mức độ ưu tiên hoặc trạng thái quá hạn để tập trung vào việc cần chú ý trước
+- **Drill-down** vào từng task để xem ảnh hoàn thành, timestamp và full activity log
+- **Xuất (Export)** dữ liệu task ra CSV để làm báo cáo hoặc lưu hồ sơ tuân thủ
+
+<Tip>
+  Hãy dùng bộ lọc **Overdue** hằng ngày để bắt các task đã trễ hạn và reassign hoặc escalate khi cần.
+</Tip>
+
+<Info>
+  Task được tạo tự động từ mục checklist bị fail sẽ kèm link về checklist submission gốc, để quản lý có đầy đủ ngữ cảnh mà không cần chuyển màn hình.
+</Info>

@@ -1,0 +1,137 @@
+---
+title: "Checklists & Audits: Tuân thủ hiện trường có xác minh GPS"
+sidebarTitle: "Checklists & Audits"
+description: "Dùng checklist mobile-first của Supa để chuẩn hóa vận hành hiện trường và thực hiện audit có xác minh GPS kèm bằng chứng ảnh chụp trực tiếp trên mọi địa điểm."
+icon: "clipboard-check"
+---
+
+Supa biến mọi SOP (standard operating procedure) thành checklist trên mobile để đội ngũ tuyến đầu có thể hoàn thành ngay trên điện thoại — kèm xác minh GPS để đảm bảo đang ở đúng địa điểm và bằng chứng ảnh chụp trực tiếp để xác nhận công việc đã được thực hiện. Trang này hướng dẫn cách xây checklist, cấu hình audit và xem kết quả theo thời gian thực.
+
+## Tính năng chính
+
+<AccordionGroup>
+  <Accordion title="Loại câu hỏi">
+    Supa hỗ trợ nhiều định dạng câu hỏi để bạn thu thập đúng dữ liệu cần thiết:
+
+    - **Yes/No** — câu trả lời nhị phân nhanh cho các bước kiểm tra pass/fail
+    - **Pass/Fail** — tập trung vào tuân thủ, có chấm điểm tự động
+    - **Photo upload** — yêu cầu ảnh chụp trực tiếp từ camera làm bằng chứng
+    - **Text** — câu trả lời dạng văn bản tự do
+    - **Number** — nhập số (đo nhiệt độ, đếm số lượng, v.v.)
+    - **Rating scale** — thang 1–5 hoặc 1–10 cho đánh giá định tính
+    - **Dropdown** — chọn một giá trị từ danh sách định sẵn
+  </Accordion>
+
+  <Accordion title="Logic điều kiện (conditional logic)">
+    Hiển thị câu hỏi theo sau dựa trên câu trả lời trước đó. Ví dụ: nếu nhân viên trả lời **Fail** cho một bước kiểm tra vệ sinh, Supa có thể tự động hiện trường corrective action yêu cầu mô tả vấn đề và đính kèm ảnh. Conditional logic giúp checklist tập trung và giảm “nhiễu” cho các bước đã đạt.
+  </Accordion>
+
+  <Accordion title="Bắt buộc ảnh bằng chứng">
+    Đánh dấu bất kỳ câu hỏi nào cần ảnh chụp trực tiếp. Nhân viên không thể chọn ảnh từ thư viện — Supa buộc mở camera để đảm bảo bằng chứng được ghi nhận ngay tại thời điểm thực hiện. Dùng cho các bước quan trọng như tình trạng thiết bị hoặc tuân thủ trưng bày.
+  </Accordion>
+
+  <Accordion title="Lịch và lặp lại">
+    Giao checklist theo lịch ngày/tuần/tháng hoặc tùy biến hoàn toàn. Supa sẽ gửi thông báo cho người được giao khi checklist đến hạn và theo dõi xem có hoàn thành đúng hạn hay không.
+  </Accordion>
+
+  <Accordion title="Gán địa điểm và GPS geofencing">
+    Gán mỗi checklist cho một hoặc nhiều cửa hàng/site cụ thể. Bật GPS geofencing để yêu cầu nhân viên phải ở trong một bán kính nhất định quanh địa điểm trước khi có thể nộp. Điều này loại bỏ việc hoàn thành từ xa hoặc gian lận.
+  </Accordion>
+
+  <Accordion title="Chấm điểm">
+    Supa tự động tính điểm cho mỗi submission dựa trên trọng số câu hỏi bạn cấu hình. Điểm sẽ hiển thị trong Analytics dashboard để bạn so sánh mức độ tuân thủ giữa các địa điểm và theo thời gian.
+  </Accordion>
+
+  <Accordion title="Corrective actions">
+    Bất kỳ mục nào bị fail đều có thể tự động tạo task giao cho người chịu trách nhiệm, kèm deadline và yêu cầu ảnh bằng chứng. Các mục fail sẽ không bị “lọt” trong quy trình.
+  </Accordion>
+</AccordionGroup>
+
+## Tạo template
+
+<Steps>
+  <Step title="Mở menu Templates">
+    <Frame>
+      ![Templates 1](/images/Templates-1.png)
+    </Frame>
+
+    Đăng nhập Supa web dashboard và vào \*\*Templates \*\* ở thanh bên trái.
+  </Step>
+  <Step title="Tạo template mới">
+    Nhấp \*\*Create template \*\* và đặt tên dễ hiểu (ví dụ: "Daily Opening — Nyna Coffee").
+
+    <Frame>
+      ![Templates 2](/images/Templates-2.png)
+    </Frame>
+  </Step>
+  <Step title="Thêm câu hỏi">
+    Dùng template builder để thêm từng câu hỏi một. Bạn có thể chọn từ nhiều loại câu hỏi (text, number, multichoice hoặc single choice..).
+
+    > Mỗi câu hỏi cũng có bộ cấu hình và logic riêng. Bạn có thể thử nghiệm để tìm cách thiết lập phù hợp nhất với nhu cầu của mình.
+
+    <Frame>
+      ![Templates 3](/images/Templates-3.png)
+    </Frame>
+  </Step>
+  <Step title="Quản lý quyền truy cập template">
+    Trong tab **Access**, bạn có thể thiết lập quyền cho template này: ai có thể xem và thực hiện checklist dựa trên template, ai có thể chỉnh sửa template. Bạn cũng có thể xác định ai được xem, chỉnh sửa, đánh giá kết quả checklist tạo từ template này.
+
+    <Frame>
+      ![Templates 4](/images/Templates-4.png)
+    </Frame>
+  </Step>
+  <Step title="Cấu hình cảnh báo">
+    Nhấp **Alert Config**. Tại đây bạn có thể thiết lập nhiều cách để cảnh báo/nhắc nhở liên quan đến checklist dựa trên template này.
+  </Step>
+  <Step title="Publish">
+    Nhấp **Publish**. Đội ngũ của bạn giờ có thể thấy template và tạo checklist ngay trong ứng dụng Supa mobile.
+  </Step>
+</Steps>
+
+## Lên lịch checklist lặp lại
+
+<Steps>
+  <Step title="Mở menu Schedules">
+    Đăng nhập Supa web dashboard và vào menu **Schedules** ở thanh bên trái.
+
+    <Frame>
+      ![Schedule 1](/images/Schedule-1.png)
+    </Frame>
+  </Step>
+  <Step title="Tạo schedule mới">
+    Nhấp \*\*Create schedule \*\* và đặt tên dễ hiểu (ví dụ: "Daily Opening Checklist — Nyna Coffee").
+
+    > Bạn cũng cần chọn template sẽ dùng cho schedule này.
+
+    <Frame>
+      ![Schedule 2](/images/Schedule-2.png)
+    </Frame>
+  </Step>
+  <Step title="Cấu hình lịch, địa điểm và GPS">
+    Thiết lập tần suất chạy checklist, các địa điểm áp dụng và có yêu cầu GPS geofencing hay không. Bật yêu cầu ảnh cho từng câu hỏi nếu cần.
+  </Step>
+  <Step title="Lưu và chạy">
+    Nhấp **Save**. Đội ngũ của bạn giờ có thể thấy schedule và thực hiện checklist trong ứng dụng Supa mobile khi chu kỳ tiếp theo bắt đầu.
+  </Step>
+</Steps>
+
+## Chế độ audit
+
+Dùng audit mode cho các đợt kiểm tra đột xuất tại điểm. Quản lý mở ứng dụng Supa mobile, chọn địa điểm và chạy checklist audit ngay tại chỗ. Mọi submission — bao gồm tọa độ GPS và timestamp — được ghi nhận theo thời gian thực và hiển thị ngay trên dashboard.
+
+<Tip>
+  Kết hợp checklist audit với cơ chế tự tạo corrective action để bất kỳ mục fail nào trong lần kiểm tra sẽ ngay lập tức trở thành task được giao kèm hạn xử lý.
+</Tip>
+
+## Xem kết quả
+
+Mọi submission hiển thị theo thời gian thực trong **Analytics** dashboard. Từ đây bạn có thể:
+
+- Lọc theo location, date range hoặc team member
+- Xem điểm của từng submission và drill-down tới câu trả lời theo từng câu hỏi
+- Xem ảnh đính kèm trực tiếp trong trang
+- Xuất dữ liệu submission ra CSV hoặc PDF để lưu hồ sơ tuân thủ
+
+<Note>
+  Checklist submission bao gồm audit trail đầy đủ: tên nhân viên, tọa độ GPS tại thời điểm nộp, timestamp trên thiết bị và toàn bộ ảnh bằng chứng.
+</Note>
