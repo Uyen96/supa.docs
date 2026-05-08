@@ -22,7 +22,7 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Home",
+          "anchor": "Trang chủ",
           "icon": "house",
           "href": "/"
         },
@@ -32,7 +32,7 @@
           "href": "https://app.allsupa.com/signup"
         },
         {
-          "anchor": "Contact",
+          "anchor": "Liên hệ",
           "icon": "life-buoy",
           "href": "https://supa.vn/contact.html"
         }
