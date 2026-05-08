@@ -45,13 +45,19 @@
           }
         },
         "directory": "card",
-        "groups": [
-          
+        "pages": [
+          "trang-chu",
+          "dang-ky-dung-thu",
+          "dat-lich-demo",
           {
             "group": "Get Started",
             "icon": "rocket",
             "expanded": true,
-            "pages": ["vi/introduction", "vi/quickstart", "vi/how-it-works"]
+            "pages": [
+              "vi/introduction",
+              "vi/quickstart",
+              "vi/how-it-works"
+            ]
           },
           {
             "group": "Platform",
@@ -131,16 +137,19 @@
           }
         },
         "directory": "card",
-        "groups": [
-          {
-            "group": "What's new",
-            "pages": ["en/checklist", "en/dao-tao", "en/thong-bao"]
-          },
+        "pages": [
+          "home",
+          "signup-for-free",
+          "book-a-demo",
           {
             "group": "Get Started",
             "icon": "rocket",
             "expanded": true,
-            "pages": ["en/introduction", "en/quickstart", "en/how-it-works"]
+            "pages": [
+              "en/introduction",
+              "en/quickstart",
+              "en/how-it-works"
+            ]
           },
           {
             "group": "Platform",
