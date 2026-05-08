@@ -19,7 +19,25 @@
     "options": ["copy", "view", "assistant", "mcp", "add-mcp"]
   },
   "navigation": {
-   
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Home",
+          "icon": "house",
+          "href": "/"
+        },
+        {
+          "anchor": "Sign up free",
+          "icon": "user-plus",
+          "href": "https://app.allsupa.com/signup"
+        },
+        {
+          "anchor": "Book a demo",
+          "icon": "calendar",
+          "href": "https://calendly.com/allsupa-marketing/30min"
+        }
+      ]
+    },
     "languages": [
       {
         "language": "vi",
@@ -199,7 +217,12 @@
     "dark": "https://media.brand.dev/84614cec-951f-43a6-b532-8341185f2baf.png"
   },
   "navbar": {
-    "links": []
+    "links": [],
+    "primary": {
+      "type": "button",
+      "label": "Start Free Trial",
+      "href": "https://app.allsupa.com/signup"
+    }
   },
   "footer": {
     "socials": {
