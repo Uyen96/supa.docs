@@ -1,110 +1,122 @@
 ---
-title: "Checklists & Audits: Tuân thủ hiện trường có xác minh GPS"
+title: "Checklists & Đánh giá: Đảm bảo tuân thủ thực hiện có xác minh GPS"
 sidebarTitle: "Checklists"
-description: "Dùng checklist mobile-first của Supa để chuẩn hóa vận hành hiện trường và thực hiện audit có xác minh GPS kèm bằng chứng ảnh chụp trực tiếp trên mọi địa điểm."
+description: "Sử dụng các checklist được Supa tối ưu trên thiết bị di động nhằm chuẩn hóa và đảm báo tuân thủ thực theo tiêu chuẩn chung trên hệ thống. Các checklist được xác minh bằng GPS kèm bằng chứng hình ảnh trực tiếp tại tất cả các địa điểm cơ sở của bạn."
 icon: "clipboard-check"
 ---
 
-Supa biến mọi SOP (standard operating procedure) thành checklist trên mobile để đội ngũ tuyến đầu có thể hoàn thành ngay trên điện thoại — kèm xác minh GPS để đảm bảo đang ở đúng địa điểm và bằng chứng ảnh chụp trực tiếp để xác nhận công việc đã được thực hiện. Trang này hướng dẫn cách xây checklist, cấu hình audit và xem kết quả theo thời gian thực.
+Supa biến mọi SOP (Standard operating procedure) thành checklist trên mobile để đội ngũ nhân viên tại địa điểm cơ sở  có thể hoàn thành ngay trên điện thoại — kèm xác minh GPS để đảm bảo đang ở đúng địa điểm và bằng chứng ảnh chụp trực tiếp để xác nhận danh sách công việc được giao đã được thực hiện. Dưới đây là các hướng dẫn cách xây checklist, cấu hình đánh giá và xem kết quả theo thời gian thực.
 
 ## Tính năng chính
 
 <AccordionGroup>
-  <Accordion title="Loại câu hỏi">
+  <Accordion title="Loại câu hỏi thiết lập trả lời">
     Supa hỗ trợ nhiều định dạng câu hỏi để bạn thu thập đúng dữ liệu cần thiết:
 
-    - **Yes/No** — câu trả lời nhị phân nhanh cho các bước kiểm tra pass/fail
-    - **Pass/Fail** — tập trung vào tuân thủ, có chấm điểm tự động
-    - **Photo upload** — yêu cầu ảnh chụp trực tiếp từ camera làm bằng chứng
-    - **Text** — câu trả lời dạng văn bản tự do
-    - **Number** — nhập số (đo nhiệt độ, đếm số lượng, v.v.)
-    - **Rating scale** — thang 1–5 hoặc 1–10 cho đánh giá định tính
-    - **Dropdown** — chọn một giá trị từ danh sách định sẵn
+    - **Có/Không **— câu trả lời chọn đáp án nhanh cho các bước kiểm tra Đạt/ Không đạt
+    - **Đạt/ Không đạt **— tập trung vào tuân thủ, có chấm điểm tự động
+    - **Yêu cầu tải ảnh **— yêu cầu ảnh chụp trực tiếp từ camera làm bằng chứng
+    - **Nhập chữ **— câu trả lời dạng văn bản tự do
+    - **Nhập số**— nhập số (đo nhiệt độ, đếm số lượng, v.v.)
+    - **Chọn đáp án từ danh sách **— chọn một giá trị từ danh sách định sẵn
+    - **Ngày -tháng -** Câu trả lời nhập/ chọn ngày tháng
+    - **Hướng dẫn -** Câu trả lời làm theo hướng dẫn
   </Accordion>
 
   <Accordion title="Logic điều kiện (conditional logic)">
-    Hiển thị câu hỏi theo sau dựa trên câu trả lời trước đó. Ví dụ: nếu nhân viên trả lời **Fail** cho một bước kiểm tra vệ sinh, Supa có thể tự động hiện trường corrective action yêu cầu mô tả vấn đề và đính kèm ảnh. Conditional logic giúp checklist tập trung và giảm “nhiễu” cho các bước đã đạt.
+    Hiển thị kết quả theo sau dựa trên câu trả lời  đã được thiết lập điều kiện trước đó. Ví dụ: nếu nhân viên trả lời **Fail** cho một bước kiểm tra vệ sinh, Supa có thể sinh ra một công việc xử lý lỗi đó hoặc yêu cầu nhân viên hiện trường mô tả vấn đề và đính kèm ảnh. Điều kiện logic giúp checklist tập trung và giảm “nhiễu” cho các bước đã đạt.
   </Accordion>
 
   <Accordion title="Bắt buộc ảnh bằng chứng">
-    Đánh dấu bất kỳ câu hỏi nào cần ảnh chụp trực tiếp. Nhân viên không thể chọn ảnh từ thư viện — Supa buộc mở camera để đảm bảo bằng chứng được ghi nhận ngay tại thời điểm thực hiện. Dùng cho các bước quan trọng như tình trạng thiết bị hoặc tuân thủ trưng bày.
+    Có thể cấu hình câu trả lời kèm bằng chứng là hình ảnh chụp trực tiếp. Nhân viên không thể chọn ảnh từ thư viện — Supa yêu cầu buộc mở camera để đảm bảo bằng chứng được ghi nhận ngay tại thời điểm thực hiện. Dùng cho các bước quan trọng như tình trạng thiết bị hoặc tuân thủ trưng bày.
   </Accordion>
 
   <Accordion title="Lịch và lặp lại">
-    Giao checklist theo lịch ngày/tuần/tháng hoặc tùy biến hoàn toàn. Supa sẽ gửi thông báo cho người được giao khi checklist đến hạn và theo dõi xem có hoàn thành đúng hạn hay không.
+    Check list được lên lịch theo tần suất  lịch ngày/tuần/tháng hoặc tùy biến theo yêu cầu. Supa sẽ tự động thiết lập lịch theo kế hoạch và gửi thông báo cho người được giao khi checklist đến hạn và theo dõi xem có hoàn thành đúng hạn hay không.
   </Accordion>
 
-  <Accordion title="Gán địa điểm và GPS geofencing">
-    Gán mỗi checklist cho một hoặc nhiều cửa hàng/site cụ thể. Bật GPS geofencing để yêu cầu nhân viên phải ở trong một bán kính nhất định quanh địa điểm trước khi có thể nộp. Điều này loại bỏ việc hoàn thành từ xa hoặc gian lận.
+  <Accordion title="Gán địa điểm và xác nhận vị trí thực tế theo GPS">
+    Checklist thực hiện được gán với cửa hàng/văn phòng trong khoảng cách cấu hình cụ thể, khi thực hiện checklist yêu cầu bật GPS để yêu cầu nhân viên phải ở trong một bán kính nhất định theo cấu hình đã thiết lập quanh địa điểm của CH/văn phòng trước khi có thể hoàn thành checklist. Điều này giúp quản lý có thể loại bỏ việc nhân viên hoàn thành từ xa hoặc gian lận.
   </Accordion>
 
   <Accordion title="Chấm điểm">
-    Supa tự động tính điểm cho mỗi submission dựa trên trọng số câu hỏi bạn cấu hình. Điểm sẽ hiển thị trong Analytics dashboard để bạn so sánh mức độ tuân thủ giữa các địa điểm và theo thời gian.
+    Supa tự động tính điểm cho mỗi checklist đã thực hiện dựa trên trọng số câu hỏi bạn cấu hình. Điểm sẽ hiển thị tại menu chức năng báo cáo (Analytics dashboard) để quản lý có thể so sánh mức độ tuân thủ giữa các địa điểm và theo thời gian.
   </Accordion>
 
-  <Accordion title="Corrective actions">
-    Bất kỳ mục nào bị fail đều có thể tự động tạo task giao cho người chịu trách nhiệm, kèm deadline và yêu cầu ảnh bằng chứng. Các mục fail sẽ không bị “lọt” trong quy trình.
+  <Accordion title="Hành động khắc phục ">
+    Bất kỳ mục nào trả lời chưa đạt đều có thể tự động tạo công việc (task) giao cho người chịu trách nhiệm, kèm thời hạn thực hiện cam kết và yêu cầu ảnh bằng chứng. Các mục chưa đạt  sẽ không bị “lọt” trong quy trình.
   </Accordion>
 </AccordionGroup>
 
-## Tạo template
+## Tạo biểu mẫu
 
 <Steps>
-  <Step title="Mở menu Templates">
+  <Step title="Mở menu biểu mẫu">
     <Frame>
-      ![Templates 1](/images/Templates-1.png)
+      ![Menu Bieu Mau](/images/menu-Bieu-mau.jpg)
     </Frame>
 
-    Đăng nhập Supa web dashboard và vào \*\*Templates \*\* ở thanh bên trái.
+    Đăng nhập Supa bằng tài khoản đã tạo và vào menu \*\*Biểu mẫu\*\* ở thanh bên trái.
   </Step>
-  <Step title="Tạo template mới">
-    Nhấp \*\*Create template \*\* và đặt tên dễ hiểu (ví dụ: "Daily Opening — Nyna Coffee").
+  <Step title="Tạo Biểu mẫu mới">
+    Nhấp \*\*Tạo biểu mẫu \*\* và đặt tên dễ hiểu (ví dụ: "Ca sáng - Mở ca - Nyna Coffee").
 
     <Frame>
-      ![Templates 2](/images/Templates-2.png)
+      ![Menu Bieu Mau](/images/menu-Bieu-mau.png)
     </Frame>
   </Step>
   <Step title="Thêm câu hỏi">
-    Dùng template builder để thêm từng câu hỏi một. Bạn có thể chọn từ nhiều loại câu hỏi (text, number, multichoice hoặc single choice..).
+    Khi tạo biểu mẫu thủ công, người dùng có thể để thêm từng câu hỏi một. Bạn có thể chọn từ nhiều loại câu hỏi (Nhập số, nhập chữ, chọn một đáp án hoặc chọn nhiều đáp án...).
 
     > Mỗi câu hỏi cũng có bộ cấu hình và logic riêng. Bạn có thể thử nghiệm để tìm cách thiết lập phù hợp nhất với nhu cầu của mình.
 
     <Frame>
-      ![Templates 3](/images/Templates-3.png)
+      ![2026 05 08 17 07 56](/images/2026-05-08_17-07-56.png)
     </Frame>
   </Step>
-  <Step title="Quản lý quyền truy cập template">
-    Trong tab **Access**, bạn có thể thiết lập quyền cho template này: ai có thể xem và thực hiện checklist dựa trên template, ai có thể chỉnh sửa template. Bạn cũng có thể xác định ai được xem, chỉnh sửa, đánh giá kết quả checklist tạo từ template này.
+  <Step title="Quản lý quyền truy cập  biểu mẫu">
+    Trong tab **Phân quyền**, bạn có thể thiết lập quyền cho biểu mẫu này: ai có thể xem và thực hiện checklist dựa trên biểu mẫu, ai có thể chỉnh sửa biểu mẫu. Bạn cũng có thể xác định ai được xem, chỉnh sửa, đánh giá kết quả checklist tạo từ biểu mẫu này.
 
     <Frame>
-      ![Templates 4](/images/Templates-4.png)
+      ![2026 05 08 17 10 53](/images/2026-05-08_17-10-53.png)
     </Frame>
   </Step>
   <Step title="Cấu hình cảnh báo">
-    Nhấp **Alert Config**. Tại đây bạn có thể thiết lập nhiều cách để cảnh báo/nhắc nhở liên quan đến checklist dựa trên template này.
+    Tab Cảnh báo. Tại đây bạn có thể thiết lập nhiều cách để cảnh báo/nhắc nhở liên quan đến checklist dựa trên biểu mẫu này.
+
+    <Frame>
+      ![2026 05 08 17 15 30](/images/2026-05-08_17-15-30.png)
+    </Frame>
   </Step>
-  <Step title="Publish">
-    Nhấp **Publish**. Đội ngũ của bạn giờ có thể thấy template và tạo checklist ngay trong ứng dụng Supa mobile.
+  <Step title="Phát hành">
+    Nhấp **Phát hành**. Đội ngũ của bạn giờ có thể thấy biểu mẫu và tạo checklist ngay trong ứng dụng Supa mobile dựa trên quyền thực hiện đã được cấu hình
+
+    <Frame>
+      ![2026 05 08 17 07 56](/images/2026-05-08_17-07-56.png)
+    </Frame>
   </Step>
 </Steps>
 
 ## Lên lịch checklist lặp lại
 
 <Steps>
-  <Step title="Mở menu Schedules">
-    Đăng nhập Supa web dashboard và vào menu **Schedules** ở thanh bên trái.
+  <Step title="Mở menu Lịch checklists">
+    Đăng nhập Supa và vào menu **Lịch checklist **ở thanh bên trái.
 
     <Frame>
-      ![Schedule 1](/images/Schedule-1.png)
+      ![2026 05 08 17 18 56](/images/2026-05-08_17-18-56.png)
     </Frame>
   </Step>
-  <Step title="Tạo schedule mới">
-    Nhấp \*\*Create schedule \*\* và đặt tên dễ hiểu (ví dụ: "Daily Opening Checklist — Nyna Coffee").
+  <Step title="Tạo Lịch checklist mới">
+    Nhấp \*\*Đặt lịch\*\* và đặt tên cho lịch checklist (ví dụ: "Daily Opening Checklist — Nyna Coffee").
 
-    > Bạn cũng cần chọn template sẽ dùng cho schedule này.
+    > Bạn cũng cần chọn biểu mẫu sẽ dùng cho lịch checklist này.
+    >
+    > <Frame>
+    >   ![2026 05 08 17 22 49](/images/2026-05-08_17-22-49.png)
+    > </Frame>
 
     <Frame>
-      ![Schedule 2](/images/Schedule-2.png)
     </Frame>
   </Step>
   <Step title="Cấu hình lịch, địa điểm và GPS">

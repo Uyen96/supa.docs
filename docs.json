@@ -27,12 +27,12 @@
           "href": "/"
         },
         {
-          "anchor": "Sign up free",
+          "anchor": "Đăng ký dùng thử",
           "icon": "user-plus",
-          "href": "https://app.allsupa.com/signup"
+          "href": "https://app.supa.vn/signup"
         },
         {
-          "anchor": "Book a demo",
+          "anchor": "Đặt lịch demo",
           "icon": "calendar",
           "href": "https://calendly.com/allsupa-marketing/30min"
         }
@@ -43,9 +43,6 @@
         "language": "vi",
         "directory": "card",
         "pages": [
-          "dang-ky-dung-thu",
-          "trang-chu",
-          "lien-he",
           {
             "group": "Get Started",
             "icon": "rocket",
@@ -87,7 +84,7 @@
             ]
           },
           {
-            "group": "Trường hợp sử dụng",
+            "group": "Use case",
             "icon": "briefcase",
             "expanded": true,
             "pages": [
