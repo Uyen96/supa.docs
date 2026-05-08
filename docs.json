@@ -41,25 +41,13 @@
     "languages": [
       {
         "language": "vi",
-        "anchors": [
-          {
-            "anchor": "Trang chủ",
-            "icon": "house",
-            "href": "/vi"
-          },
-          {
-            "anchor": "Đăng ký dùng thử",
-            "icon": "user-plus",
-            "href": "https://app.allsupa.com/signup"
-          },
-          {
-            "anchor": "Liên hệ",
-            "icon": "life-buoy",
-            "href": "https://supa.vn/contact.html"
-          }
-        ],
         "directory": "card",
         "groups": [
+          {
+            "group": "Trang chủ",
+            "icon": "house",
+            "pages": ["vi/index"]
+          },
           {
             "group": "Tính năng mới",
             "pages": ["vi/thong-bao"]
@@ -127,25 +115,13 @@
       {
         "language": "en",
         "default": true,
-        "anchors": [
-          {
-            "anchor": "Home",
-            "icon": "house",
-            "href": "/"
-          },
-          {
-            "anchor": "Start free trial",
-            "icon": "user-plus",
-            "href": "https://app.allsupa.com/signup"
-          },
-          {
-            "anchor": "Contact",
-            "icon": "life-buoy",
-            "href": "https://supa.vn/contact.html"
-          }
-        ],
         "directory": "card",
         "groups": [
+          {
+            "group": "Home",
+            "icon": "house",
+            "pages": ["en/index"]
+          },
           {
             "group": "What's new",
             "pages": ["en/thong-bao"]
