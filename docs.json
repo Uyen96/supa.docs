@@ -41,6 +41,7 @@
     "languages": [
       {
         "language": "vi",
+        "default": true,
         "directory": "card",
         "pages": [
           {
@@ -103,71 +104,6 @@
               "vi/account/roles-permissions",
               "vi/account/integrations",
               "vi/account/pricing"
-            ]
-          }
-        ]
-      },
-      {
-        "language": "en",
-        "default": true,
-        "directory": "card",
-        "groups": [
-          {
-            "group": "Get Started",
-            "icon": "rocket",
-            "expanded": true,
-            "pages": ["en/introduction", "en/quickstart", "en/how-it-works"]
-          },
-          {
-            "group": "Platform",
-            "icon": "layers",
-            "expanded": true,
-            "pages": [
-              "en/platform/checklists",
-              "en/platform/task-management",
-              "en/platform/training",
-              "en/platform/analytics",
-              "en/platform/team-chat",
-              "en/platform/heads-up",
-              "en/platform/issues",
-              "en/platform/ai"
-            ]
-          },
-          {
-            "group": "Features",
-            "icon": "layers",
-            "expanded": true,
-            "pages": [
-              "en/features/checklists-audits",
-              "en/features/task-management",
-              "en/features/training",
-              "en/features/analytics",
-              "en/features/team-chat",
-              "en/features/heads-up",
-              "en/features/issues-investigations",
-              "en/features/ai"
-            ]
-          },
-          {
-            "group": "Use cases",
-            "icon": "briefcase",
-            "expanded": true,
-            "pages": [
-              "en/use-cases/retail",
-              "en/use-cases/fb",
-              "en/use-cases/hospitality",
-              "en/use-cases/facilities"
-            ]
-          },
-          {
-            "group": "Account & Settings",
-            "icon": "settings",
-            "expanded": true,
-            "pages": [
-              "en/account/setup",
-              "en/account/roles-permissions",
-              "en/account/integrations",
-              "en/account/pricing"
             ]
           }
         ]
