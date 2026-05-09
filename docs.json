@@ -42,27 +42,11 @@
     "groups": [
       {
         "group": "Get Started",
-        "icon": "rocket",
         "expanded": true,
         "pages": [
           "vi/introduction",
-          "vi/quickstart",
-          "vi/how-it-works"
-        ]
-      },
-      {
-        "group": "Platform",
-        "icon": "layers",
-        "expanded": true,
-        "pages": [
-          "vi/platform/checklists",
-          "vi/platform/task-management",
-          "vi/platform/training",
-          "vi/platform/analytics",
-          "vi/platform/team-chat",
-          "vi/platform/heads-up",
-          "vi/platform/issues",
-          "vi/platform/ai"
+          "vi/get-started",
+          "vi/quickstart"
         ]
       },
       {
@@ -78,6 +62,21 @@
           "vi/features/heads-up",
           "vi/features/issues-investigations",
           "vi/features/ai"
+        ]
+      },
+      {
+        "group": "Platform",
+        "icon": "layers",
+        "expanded": true,
+        "pages": [
+          "vi/platform/checklists",
+          "vi/platform/task-management",
+          "vi/platform/training",
+          "vi/platform/analytics",
+          "vi/platform/team-chat",
+          "vi/platform/heads-up",
+          "vi/platform/issues",
+          "vi/platform/ai"
         ]
       },
       {

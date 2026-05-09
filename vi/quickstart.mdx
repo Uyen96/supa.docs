@@ -1,100 +1,122 @@
 ---
-title: "Get started with Supa"
-description: "Learn how to set up your Supa account, invite your team, create your first checklist, and verify work at your locations in under 15 minutes."
+title: "How Supa Verifies Field Operations from Start to Finish"
+description: "Understand how Supa connects your office dashboard to frontline execution using GPS verification, live photo proof, and automated reporting workflows."
+sidebarTitle: "How it works"
+icon: "step-forward"
 ---
 
-You can have your first GPS-verified checklist running at a real location in under 15 minutes. This guide walks you through signing up, configuring your organization, building a checklist, and reviewing your first completed submission — from account creation to photo proof on the dashboard.
+Supa links your management team to your frontline workers through a closed-loop verification system. This page explains the two interfaces, the workflow that connects them, and the mechanisms Supa uses to ensure that what gets reported actually happened.
 
-<Note>
-  Every new Supa account includes a 30-day free trial with full Growth plan features — unlimited templates, advanced analytics, remote task verification, and SSO. No credit card required. After 30 days, you can continue on the Free plan (up to 5 users and 3 templates) or upgrade to Growth at $6.99 per user per month.
-</Note>
+## Two interfaces, one platform
 
-<Steps>
-  <Step title="Create your account">
-    Go to [app.allsupa.com/signup](https://app.allsupa.com/signup) and sign up with your work email address. You can also sign in with Google or Microsoft SSO if your organization uses either.
+Supa runs on two surfaces that work together in real time.
 
-    Your account starts on the **Free plan**, which supports up to 5 users and 3 checklist templates with unlimited locations and checks. Your 30-day Growth trial activates automatically so you can explore all features before deciding on a plan.
-  </Step>
+<Tabs>
+  <Tab title="Web dashboard">
+    The web dashboard is where managers and administrators run operations. You use it to:
 
-  <Step title="Set up your organization">
-    After signing in, Supa asks you to configure your organization:
+    - Create and publish checklists, audits, and tasks
+    - Assign work to locations, departments, or individual workers
+    - Monitor real-time completion status across all your sites
+    - Review submitted evidence — GPS coordinates, live photos, and timestamps
+    - Generate compliance reports and track trends in Analytics
+    - Manage your team, roles, and organization settings
 
-    1. Enter your **company name** — this appears on reports and in the mobile app.
-    2. Add your **first location** — give it a name (e.g., "Store #1 – City Center") and set its address. Supa uses the address to define the GPS geofence that staff must be within to submit checks.
+    The dashboard is accessible from any browser. No installation required.
+  </Tab>
+  <Tab title="Mobile app">
+    The Supa mobile app is the tool your frontline workers use every day. Available for iOS and Android, it gives workers:
 
-    You can add more locations at any time from **Settings → Locations**.
-  </Step>
+    - A daily view of all assigned checklists and tasks
+    - Step-by-step checklist completion with in-app photo capture
+    - GPS-stamped submissions that prove on-site presence
+    - Heads Up announcements with read confirmation
+    - Team Chat for coordination with colleagues and managers
+    - Access to training lessons linked to their role and location
 
-  <Step title="Invite your team">
-    Go to **Settings → Team** and add your team members by email address. Assign each person one of three roles:
+    Workers only need the app — they do not need access to the web dashboard.
+  </Tab>
+</Tabs>
 
-    | Role | What they can do |
-    |---|---|
-    | **Admin** | Full access — manage templates, locations, team, and billing |
-    | **Area Manager** | View and monitor multiple locations; receive escalation alerts |
-    | **Location Staff** | Complete assigned checklists and tasks on the mobile app |
+## The verification workflow
 
-    Invited members receive an email with a link to download the Supa app (iOS or Android) and create their password.
-  </Step>
+Every operation in Supa follows the same five-stage loop.
 
-  <Step title="Create your first checklist">
-    Go to **Checklists → New template**. You have two options:
+```text
+Create → Assign → Execute → Verify → Report
+```
 
-    **Build manually:** Use the checklist builder to add items one by one. Each item can require a text response, a numeric value, a pass/fail selection, or a live photo. Mark any item as **critical** to trigger automatic escalation if it is skipped.
+**Create:** A manager builds a checklist, task, or training module on the web dashboard. They set the requirements — which items need photos, what scores pass or fail, and how frequently it runs.
 
-    **Generate with Supa AI:** Type a plain-language description of what you want — for example, "Opening checklist for a coffee shop, including food safety, equipment, and display standards" — and Supa AI drafts a complete checklist in seconds. Review and adjust before saving.
+**Assign:** The manager assigns the work to a location, department, or specific worker. Workers receive a push notification on their mobile app.
 
-    Give your template a name and save it. It is now ready to assign to locations.
-  </Step>
+**Execute:** The worker opens Supa on their phone and completes the checklist or task. For each step, they follow the instructions and capture any required evidence directly in the app.
 
-  <Step title="Assign to a location">
-    Open your new template and click **Assign**. Select one or more locations and set a schedule — you can configure a checklist to run once, daily, weekly, or on a custom cadence. Location Staff at the assigned locations will see the checklist in their Supa app immediately.
+**Verify:** Supa validates the submission automatically. GPS confirms the worker was on site. Live photo detection rejects any image pulled from the camera roll — only photos taken in the moment are accepted. Timestamps record exactly when each item was completed.
 
-    <Tip>
-      Start with one location for your first check so you can review a completed submission end-to-end before rolling out to your full network.
-    </Tip>
-  </Step>
+**Report:** The completed submission appears in the web dashboard instantly. Managers see the evidence without chasing anyone. Analytics aggregates submissions across all locations for trend reporting.
 
-  <Step title="Complete a check on mobile">
-    Ask a team member at the location to open the **Supa app** on their iOS or Android device. When they tap the assigned checklist:
-
-    1. Supa checks their GPS coordinates against the location geofence. If they are not physically on-site, the checklist will not open.
-    2. They work through each task in order. Items requiring a photo prompt the camera to open — they must take the photo live. Gallery uploads are blocked.
-    3. Timestamps and GPS coordinates are automatically attached to every response.
-    4. When all items are complete, they submit the check. The submission is immediately visible on your dashboard.
-
-    <Info>
-      The Supa mobile app is available on iOS (App Store) and Android (Google Play). It is designed to run on any smartphone and works on low-bandwidth connections.
-    </Info>
-  </Step>
-
-  <Step title="Review results on the dashboard">
-    Log back in to [app.allsupa.com](https://app.allsupa.com) and go to **Checklists → Submissions**. You will see the completed check with:
-
-    - Every task response, with pass/fail or entered values
-    - Live photos with embedded timestamps and GPS stamps
-    - The submitter's name, role, and the exact time of submission
-    - A compliance score for the overall check
-
-    If any critical task was skipped, Supa will have already sent an escalation alert to the assigned Area Manager. You can also open **Analytics** to see this location's compliance trend over time.
-  </Step>
-</Steps>
-
-## What to do next
-
-Once you have completed your first check, you are ready to scale. Add more locations, build additional templates for different check types (closing, weekly audit, food safety walk), and invite your full team. Visit the pages below to go deeper on each platform capability.
+## Verification mechanisms
 
 <CardGroup cols={2}>
-  <Card title="How Supa works" icon="arrow-right-circle" href="/how-it-works">
-    Understand the full closed-loop system — from HQ assignment to on-site execution to insight.
+  <Card title="GPS location verification" icon="map-pin">
+    Every checklist submission is tagged with the worker's GPS coordinates. Managers can confirm the worker was physically present at the correct site when they completed the work.
   </Card>
-  <Card title="Checklists & audits" icon="check-square" href="/platform/checklists">
-    Learn how to build advanced templates, use logic branching, and attach SOP videos.
+
+  <Card title="Live photo upload" icon="camera">
+    Steps that require visual proof use the phone camera directly. Supa automatically rejects photos uploaded from the camera roll — evidence must be captured in the moment.
   </Card>
-  <Card title="Roles & permissions" icon="shield" href="/account/roles-permissions">
-    Configure fine-grained access control across your locations and management hierarchy.
+
+  <Card title="Timestamp tracking" icon="clock">
+    Each item in a checklist or task is recorded with the exact time it was completed. This creates a reliable, tamper-resistant activity log for audits and investigations.
   </Card>
-  <Card title="Pricing" icon="credit-card" href="/account/pricing">
-    Compare the Free, Growth, and Enterprise plans and find the right fit for your network.
+
+  <Card title="Read receipts" icon="check-check">
+    Heads Up announcements track who has read each message. Managers can see exactly which team members have acknowledged a broadcast and follow up with those who haven't.
+  </Card>
+</CardGroup>
+
+<Warning>
+  Supa's live photo detection is enforced at the system level. Workers cannot substitute a pre-taken photo for a live capture. If your compliance process requires visual evidence, this ensures that evidence is authentic.
+</Warning>
+
+## The AI layer
+
+Supa includes AI capabilities that reduce the manual work of building and managing operations content.
+
+**Content creation:** Describe a process in plain language and Supa generates a complete checklist or training module. You can also upload an existing SOP document and Supa extracts the items automatically.
+
+**Document Q&A:** Workers and managers can ask plain-language questions about uploaded documents and receive instant answers — without searching through pages of text.
+
+**15-language translation:** Supa translates checklists, training content, and announcements into 15 languages automatically, so your multilingual workforce always receives instructions in their preferred language.
+
+<Info>
+  AI-generated content is always editable. Review and adjust anything before publishing it to your team.
+</Info>
+
+## Data flow summary
+
+Here is how information moves through Supa from creation to reporting:
+
+```mermaid placement="bottom"
+flowchart LR
+    A[Manager creates checklist\non web dashboard] --> B[Assigned to location\nor worker]
+    B --> C[Worker receives task\non mobile app]
+    C --> D[Worker completes steps\nwith GPS + live photos]
+    D --> E[Supa verifies submission\nautomatically]
+    E --> F[Manager sees results\nin Analytics]
+```
+
+Every step in this flow is automatic. No manual data entry, no chasing follow-ups, no emailed spreadsheets.
+
+## Next steps
+
+<CardGroup cols={2}>
+  <Card title="Run your first checklist" icon="rocket" href="/quickstart">
+    Follow the quickstart guide to set up your account and complete a GPS-verified checklist in under 10 minutes.
+  </Card>
+
+  <Card title="Explore Checklists & Audits" icon="clipboard-check" href="/features/checklists-audits">
+    Learn how to build audit templates, configure scoring, and schedule recurring checks.
   </Card>
 </CardGroup>
