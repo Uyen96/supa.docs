@@ -1,27 +1,42 @@
 ---
-title: "Báo cáo: Dashboard tuân thủ và hiệu suất theo thời gian thực"
+title: "Báo cáo: Các báo cáo tuân thủ và hiệu suất theo thời gian thực"
 sidebarTitle: "Báo cáo"
-description: "Theo dõi điểm audit, tỷ lệ hoàn thành task, tiến độ đào tạo và xu hướng sự cố trên mọi địa điểm bằng dashboard analytics theo thời gian thực của Supa."
+description: "Theo dõi điểm thực hiện checklist, tỷ lệ hoàn thành công việc, tiến độ đào tạo và xu hướng sự cố trên mọi địa điểm bằng các báo cáo theo thời gian thực của Supa."
 icon: "chart-pie"
 ---
 
-Dashboard analytics của Supa giúp quản lý nhìn thấy bức tranh “live” trên mọi địa điểm — từ điểm audit và mức độ tuân thủ checklist đến tiến độ đào tạo và các sự cố đang mở. Trang này giới thiệu các dashboard sẵn có, cách lọc và drill-down dữ liệu, cũng như cách thiết lập báo cáo tự động.
+Báo cáo của Supa giúp quản lý nhìn thấy bức tranh “toàn diện” trên mọi địa điểm — từ điểm thực hiện checklist và mức độ tuân thủ checklist đến tiến độ đào tạo và các sự cố đang mở. Trang này giới thiệu các báo cáo sẵn có, cách lọc và xuất dữ liệu thành tệp excels.  
 
-## Các dashboard sẵn có
+## Các Báo cáo  sẵn có
 
 <Tabs>
-  <Tab title="Điểm audit">
-    Xem điểm trung bình của checklist theo từng checklist, từng địa điểm và theo bất kỳ khoảng thời gian nào. Nhấp vào một điểm bất kỳ để drill-down tới từng lần nộp, xem câu trả lời theo từng câu hỏi và ảnh đính kèm.
+  <Tab title="Tuân thủ lịch theo địa điểm">
+    Xem tỷ lệ hoành thành đúng hạn, hoàn thành trễ hạn, đang làm, cần làm/bỏ lỡ của checklist   của công ty theo bất kỳ khoảng thời gian nào theo bộ lọc.
 
-    Dùng dashboard này để:
-    - Xác định các địa điểm thường xuyên có điểm dưới ngưỡng
-    - So sánh hiệu suất giữa các địa điểm cho cùng một checklist
-    - Xem ảnh bằng chứng của từng lần nộp mà không cần rời khỏi dashboard
+    <Frame>
+      ![Bc1](/images/bc1.png)
+    </Frame>
+
+    Nhấp vào nút để xem chi tiết tỷ lệ tuân thủ của checklist theo từng địa điểm.
+
+    <Frame>
+      ![Bc2](/images/bc3.png)
+    </Frame>
+
+    - Vị trí 1 bộ lọc theo Thời gian, Biểu mẫu, Địa điểm, Nhãn dán, Người dùng: cho phép chọn thời gian cụ thể hoặc tùy chỉnh, có thể chọn 1 hoặc nhiều Biểu mẫu, Địa điểm, Nhãn dán, Người dùng.
+    - Vị trí 2 nút xuất dữ liệu: cho phải tải xuống theo bộ lọc đã chọn tệp excels.
+    - Vị trí 3 tỷ lệ hoàn thành đúng hạn, hoàn thành trễ, đang làm, cần làm/bỏ lỡ các checklist của công ty.
+    - Vị trí 4 bấm vào địa điểm: hiển thị thông tin chi tết của từng checklist theo địa điểm cụ thể. Các tỉ lệ đã hoàn thành, quá hạn, đang làm theo lịch, theo ngày và các công việc phát sinh khi thực hiện checklist.
+    - Vị trí 5 bấm vào từng checklist để xem chi tiết các tỷ lệ, theo từng thành viên thực hiện, xu hướng điểm lựa chọn.
+      <Frame>
+        ![Bc4](/images/bc4.png)
+      </Frame>
   </Tab>
   <Tab title="Tỷ lệ tuân thủ">
     Theo dõi phần trăm checklist theo lịch được hoàn thành đúng hạn. Checklist nộp sau khung thời gian đến hạn vẫn bị tính là không tuân thủ, ngay cả khi cuối cùng vẫn được hoàn thành.
 
     Dùng dashboard này để:
+
     - Phát hiện các địa điểm/nhóm hay bị trễ hạn lặp lại
     - Đặt mục tiêu tỷ lệ tuân thủ và theo dõi tiến độ theo thời gian
   </Tab>
@@ -29,6 +44,7 @@ Dashboard analytics của Supa giúp quản lý nhìn thấy bức tranh “live
     Xem toàn bộ task đang mở và đã hoàn thành, phân tách theo địa điểm và người được giao. Lọc theo mức độ ưu tiên và hạn chót để tập trung vào việc quá hạn hoặc ưu tiên cao.
 
     Dùng dashboard này để:
+
     - Theo dõi phân bổ khối lượng công việc trong đội ngũ
     - Xác định người/địa điểm có backlog task quá hạn cao
   </Tab>
@@ -36,6 +52,7 @@ Dashboard analytics của Supa giúp quản lý nhìn thấy bức tranh “live
     Xem tỷ lệ hoàn thành khóa học và điểm quiz theo từng nhân viên và địa điểm. Biết ai đã bắt đầu, ai đã đạt, và ai chưa tham gia.
 
     Dùng dashboard này để:
+
     - Follow up các nhân viên chưa hoàn thành đào tạo bắt buộc
     - Xác định các khóa học có tỷ lệ đạt thấp để cân nhắc chỉnh sửa nội dung
   </Tab>
@@ -43,6 +60,7 @@ Dashboard analytics của Supa giúp quản lý nhìn thấy bức tranh “live
     Xem tất cả issue đang mở, nhóm theo mức độ nghiêm trọng, loại và địa điểm. Theo dõi issue đã mở bao lâu và còn trong SLA/hạn xử lý hay không.
 
     Dùng dashboard này để:
+
     - Escalate các issue sắp đến hạn hoặc đã quá hạn
     - Xác định các loại sự cố lặp lại để xử lý ở mức hệ thống
   </Tab>
@@ -50,39 +68,33 @@ Dashboard analytics của Supa giúp quản lý nhìn thấy bức tranh “live
     Theo dõi tỷ lệ xác nhận (acknowledgment) cho mọi thông báo gửi qua Heads Up. Xem ai đã đọc và xác nhận từng thông báo, phân tách theo địa điểm và đội nhóm.
 
     Dùng dashboard này để:
+
     - Follow up các người nhận chưa xác nhận trước khi chính sách có hiệu lực
     - Audit mức độ tuân thủ cho các thông báo bắt buộc xác nhận
   </Tab>
 </Tabs>
 
-## Lọc và drill-down
-
-Mọi dashboard trong Supa đều hỗ trợ cùng một bộ lọc:
-
-- **Date range** — chọn khoảng thời gian tùy chỉnh hoặc dùng preset (today, this week, this month, last 30 days)
-- **Location** — lọc theo một hoặc nhiều cửa hàng/site cụ thể
-- **Department** — thu hẹp kết quả theo một team hoặc vai trò cụ thể
-- **Team member** — drill-down tới dữ liệu của từng nhân viên
-
-Nhấp vào bất kỳ chỉ số, cột biểu đồ hoặc dòng dữ liệu nào để mở các bản ghi bên dưới. Từ từng bản ghi, bạn có thể xem chi tiết lần nộp, ảnh, mốc thời gian và toàn bộ audit trail.
-
 ## Xuất dữ liệu
 
-Từ bất kỳ dashboard nào, nhấp **Export** để tải xuống góc nhìn hiện tại (đã lọc) dưới dạng CSV hoặc PDF. Dùng export cho:
+Bấm **Tải xuống** để chuyển đến màn hình thực hiện tải xuống dữ liệu của các báo cáo. 
 
-- Báo cáo tuân thủ theo tuần/tháng gửi cho các bên liên quan
-- Hồ sơ audit theo yêu cầu của cơ quan quản lý/đơn vị kiểm định
-- Phân tích trên công cụ bên ngoài như Excel hoặc Google Sheets
+<Frame>
+  ![Bc5](/images/bc5.png)
+</Frame>
 
-## Báo cáo theo lịch
+Tại mỗi dòng tương ứng các báo cáo ở màn hình tổng quan. Bấm nút **Xuất dữ liệu** để thực hiện lọc theo các điều kiện.
 
-Thiết lập báo cáo email tự động để dữ liệu đến đúng người, đúng thời điểm mà không cần làm thủ công:
+<Frame>
+  ![Bc6](/images/bc6.png)
+</Frame>
 
-1. Mở một dashboard bất kỳ và áp dụng bộ lọc bạn muốn.
-2. Nhấp **Schedule Report**.
-3. Chọn tần suất gửi: daily, weekly hoặc monthly.
-4. Thêm danh sách email người nhận.
-5. Lưu — Supa sẽ tự động gửi báo cáo theo lịch.
+Bộ lọc xuất hiện, chọn các tiêu chi mà bạn mong muốn. Bấm **Tải xuống** để tải tệp về.
+
+<Frame>
+  ![Bc7](/images/bc7.png)
+</Frame>
+
+## 
 
 ## Analytics trên mobile
 
