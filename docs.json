@@ -23,9 +23,9 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Home",
+          "anchor": "Trang chủ",
           "icon": "house",
-          "href": "/"
+          "href": "https://app.supa.vn"
         },
         {
           "anchor": "Đăng ký dùng thử",
@@ -41,7 +41,7 @@
     },
     "groups": [
       {
-        "group": "Get Started",
+        "group": "Bắt đầu với Supa",
         "expanded": true,
         "pages": [
           "vi/introduction",
