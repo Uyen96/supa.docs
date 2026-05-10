@@ -1,122 +1,47 @@
 ---
-title: "How Supa Verifies Field Operations from Start to Finish"
-description: "Understand how Supa connects your office dashboard to frontline execution using GPS verification, live photo proof, and automated reporting workflows."
-sidebarTitle: "How it works"
+title: "Cách Supa xác thực vận hành hiện trường từ đầu đến cuối"
+description: "Tìm hiểu cách Supa kết nối bảng điều khiển văn phòng với việc thực thi tại tiền tuyến bằng xác thực GPS, bằng chứng ảnh trực tiếp và quy trình báo cáo tự động."
+sidebarTitle: "Cách thức hoạt động"
 icon: "step-forward"
 ---
 
-Supa links your management team to your frontline workers through a closed-loop verification system. This page explains the two interfaces, the workflow that connects them, and the mechanisms Supa uses to ensure that what gets reported actually happened.
+Supa kết nối đội ngũ quản lý với nhân viên tiền tuyến thông qua một hệ thống xác thực vòng lặp kín. Trang này giải thích về hai giao diện, quy trình kết nối chúng và các cơ chế mà Supa sử dụng để đảm bảo rằng những gì được báo cáo thực sự đã diễn ra.
 
-## Two interfaces, one platform
+## Hai giao diện, một nền tảng
 
-Supa runs on two surfaces that work together in real time.
+Supa vận hành trên hai bề mặt hoạt động cùng nhau theo thời gian thực.
 
 <Tabs>
-  <Tab title="Web dashboard">
-    The web dashboard is where managers and administrators run operations. You use it to:
+  <Tab title="Bảng điều khiển web (Web dashboard)">
+    Bảng điều khiển web là nơi các quản lý và quản trị viên điều hành hoạt động. Bạn sử dụng nó để:
 
-    - Create and publish checklists, audits, and tasks
-    - Assign work to locations, departments, or individual workers
-    - Monitor real-time completion status across all your sites
-    - Review submitted evidence — GPS coordinates, live photos, and timestamps
-    - Generate compliance reports and track trends in Analytics
-    - Manage your team, roles, and organization settings
+    - Tạo và xuất bản các checklist, đánh giá (audits) và nhiệm vụ
+    - Giao việc cho các địa điểm, phòng ban hoặc cá nhân nhân viên
+    - Giám sát trạng thái hoàn thành theo thời gian thực trên tất cả các chi nhánh
+    - Kiểm tra các minh chứng đã gửi — tọa độ GPS, ảnh chụp trực tiếp và dấu thời gian
+    - Tạo báo cáo tuân thủ và theo dõi xu hướng trong phần Analytics
+    - Quản lý đội ngũ, vai trò và cài đặt tổ chức
 
-    The dashboard is accessible from any browser. No installation required.
+    Bảng điều khiển có thể truy cập từ bất kỳ trình duyệt nào mà không cần cài đặt.
   </Tab>
-  <Tab title="Mobile app">
-    The Supa mobile app is the tool your frontline workers use every day. Available for iOS and Android, it gives workers:
+  <Tab title="Ứng dụng di động (Mobile app)">
+    Ứng dụng di động Supa là công cụ mà nhân viên tiền tuyến của bạn sử dụng hàng ngày. Có sẵn trên iOS và Android, ứng dụng cung cấp cho nhân viên:
 
-    - A daily view of all assigned checklists and tasks
-    - Step-by-step checklist completion with in-app photo capture
-    - GPS-stamped submissions that prove on-site presence
-    - Heads Up announcements with read confirmation
-    - Team Chat for coordination with colleagues and managers
-    - Access to training lessons linked to their role and location
+    - Chế độ xem hàng ngày tất cả các checklist và nhiệm vụ được giao
+    - Hoàn thành checklist từng bước với tính năng chụp ảnh trực tiếp trong ứng dụng
+    - Các lượt gửi kèm dấu xác thực GPS chứng minh sự hiện diện tại địa điểm
+    - Thông báo Heads Up kèm xác nhận đã đọc
+    - Team Chat để phối hợp với đồng nghiệp và quản lý
+    - Truy cập vào các bài học đào tạo liên kết với vai trò và địa điểm của họ
 
-    Workers only need the app — they do not need access to the web dashboard.
+    Nhân viên chỉ cần ứng dụng này — họ không cần quyền truy cập vào bảng điều khiển web.
   </Tab>
 </Tabs>
 
-## The verification workflow
+## Quy trình xác thực
 
-Every operation in Supa follows the same five-stage loop.
+Mọi hoạt động trong Supa đều tuân theo một vòng lặp năm giai đoạn giống nhau.
 
 ```text
 Create → Assign → Execute → Verify → Report
 ```
-
-**Create:** A manager builds a checklist, task, or training module on the web dashboard. They set the requirements — which items need photos, what scores pass or fail, and how frequently it runs.
-
-**Assign:** The manager assigns the work to a location, department, or specific worker. Workers receive a push notification on their mobile app.
-
-**Execute:** The worker opens Supa on their phone and completes the checklist or task. For each step, they follow the instructions and capture any required evidence directly in the app.
-
-**Verify:** Supa validates the submission automatically. GPS confirms the worker was on site. Live photo detection rejects any image pulled from the camera roll — only photos taken in the moment are accepted. Timestamps record exactly when each item was completed.
-
-**Report:** The completed submission appears in the web dashboard instantly. Managers see the evidence without chasing anyone. Analytics aggregates submissions across all locations for trend reporting.
-
-## Verification mechanisms
-
-<CardGroup cols={2}>
-  <Card title="GPS location verification" icon="map-pin">
-    Every checklist submission is tagged with the worker's GPS coordinates. Managers can confirm the worker was physically present at the correct site when they completed the work.
-  </Card>
-
-  <Card title="Live photo upload" icon="camera">
-    Steps that require visual proof use the phone camera directly. Supa automatically rejects photos uploaded from the camera roll — evidence must be captured in the moment.
-  </Card>
-
-  <Card title="Timestamp tracking" icon="clock">
-    Each item in a checklist or task is recorded with the exact time it was completed. This creates a reliable, tamper-resistant activity log for audits and investigations.
-  </Card>
-
-  <Card title="Read receipts" icon="check-check">
-    Heads Up announcements track who has read each message. Managers can see exactly which team members have acknowledged a broadcast and follow up with those who haven't.
-  </Card>
-</CardGroup>
-
-<Warning>
-  Supa's live photo detection is enforced at the system level. Workers cannot substitute a pre-taken photo for a live capture. If your compliance process requires visual evidence, this ensures that evidence is authentic.
-</Warning>
-
-## The AI layer
-
-Supa includes AI capabilities that reduce the manual work of building and managing operations content.
-
-**Content creation:** Describe a process in plain language and Supa generates a complete checklist or training module. You can also upload an existing SOP document and Supa extracts the items automatically.
-
-**Document Q&A:** Workers and managers can ask plain-language questions about uploaded documents and receive instant answers — without searching through pages of text.
-
-**15-language translation:** Supa translates checklists, training content, and announcements into 15 languages automatically, so your multilingual workforce always receives instructions in their preferred language.
-
-<Info>
-  AI-generated content is always editable. Review and adjust anything before publishing it to your team.
-</Info>
-
-## Data flow summary
-
-Here is how information moves through Supa from creation to reporting:
-
-```mermaid placement="bottom"
-flowchart LR
-    A[Manager creates checklist\non web dashboard] --> B[Assigned to location\nor worker]
-    B --> C[Worker receives task\non mobile app]
-    C --> D[Worker completes steps\nwith GPS + live photos]
-    D --> E[Supa verifies submission\nautomatically]
-    E --> F[Manager sees results\nin Analytics]
-```
-
-Every step in this flow is automatic. No manual data entry, no chasing follow-ups, no emailed spreadsheets.
-
-## Next steps
-
-<CardGroup cols={2}>
-  <Card title="Run your first checklist" icon="rocket" href="/quickstart">
-    Follow the quickstart guide to set up your account and complete a GPS-verified checklist in under 10 minutes.
-  </Card>
-
-  <Card title="Explore Checklists & Audits" icon="clipboard-check" href="/features/checklists-audits">
-    Learn how to build audit templates, configure scoring, and schedule recurring checks.
-  </Card>
-</CardGroup>
