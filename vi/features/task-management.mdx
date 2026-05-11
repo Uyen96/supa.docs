@@ -28,6 +28,10 @@ Chứa năng quản lý Công việc (công việc) của Supa giúp bạn giao 
 
   <Accordion title="Công việc lặp lại">
     Thiết lập công việc lặp theo lịch ngày/tuần/tháng. Supa tự tạo các lần lặp mới và thông báo cho người được giao khi đến hạn.
+
+    <Frame>
+      ![2026 05 10 21 43 23](/images/2026-05-10_21-43-23.png)
+    </Frame>
   </Accordion>
 
   <Accordion title="Quy trình trạng thái">
@@ -40,6 +44,10 @@ Chứa năng quản lý Công việc (công việc) của Supa giúp bạn giao 
 
   <Accordion title="Thông báo">
     Nhân viên nhận thông báo khi được giao công việc và nhận nhắc nhở khi sắp đến hạn hoặc quá hạn. Quản lý cũng được thông báo khi công việc quá hạn.
+
+    <Frame>
+      ![2026 05 10 21 37 25](/images/2026-05-10_21-37-25.png)
+    </Frame>
   </Accordion>
 </AccordionGroup>
 
@@ -58,10 +66,18 @@ Chứa năng quản lý Công việc (công việc) của Supa giúp bạn giao 
     </Frame>
   </Step>
   <Step title="Tạo công việc mới">
-    Nhấp/chạm **Tạo công việc**
+    Nhấp/chạm **Tạo công việc,** hệ thống mở ra màn chi tiết tạo công việc
+
+    <Frame>
+      ![2026 05 10 21 15 47](/images/2026-05-10_21-15-47.png)
+    </Frame>
   </Step>
   <Step title="Điền thông tin">
     Thiết lập tiêu đề, mô tả, người được giao, hạn chót, mức độ ưu tiên và địa điểm. Thêm ảnh/file tham chiếu nếu nhân viên cần.
+
+    <Frame>
+      ![2026 05 10 21 15 47](/images/2026-05-10_21-15-47.png)
+    </Frame>
   </Step>
   <Step title="Bật yêu cầu ảnh nếu cần">
     Bật **Require photo on completion** để buộc nhân viên chụp ảnh trực tiếp trước khi có thể đánh dấu task hoàn thành.
@@ -71,19 +87,33 @@ Chứa năng quản lý Công việc (công việc) của Supa giúp bạn giao 
   </Step>
 </Steps>
 
-## Dashboard theo dõi
+## Danh sách công việc đã được khởi tạo trên hệ thống
 
-Task dashboard giúp quản lý nắm toàn cảnh trạng thái công việc hiện trường trong tổ chức:
+Menu danh sách công việc giúp quản lý nắm toàn cảnh trạng thái công việc hiện trường trong tổ chức:
 
-- **Lọc (Filter)** theo location, team, assignee, status hoặc due date
+- **Lọc (Filter)** theo đại điểm, người thực hiện, ngày tạo công việc, mức độ ưu tiên, nhãn dán, người hỗ trợ, người tạo..
 - **Sắp xếp (Sort)** theo mức độ ưu tiên hoặc trạng thái quá hạn để tập trung vào việc cần chú ý trước
-- **Drill-down** vào từng task để xem ảnh hoàn thành, timestamp và full activity log
-- **Xuất (Export)** dữ liệu task ra CSV để làm báo cáo hoặc lưu hồ sơ tuân thủ
+- **Chi tiết bấm**  vào từng task để xem ảnh hoàn thành, timestamp và toàn bộ lịch sử công việc
+- **Xuất (Export)** dữ liệu công việc ra file excel để làm báo cáo hoặc lưu hồ sơ tuân thủ
+  <Frame>
+    ![Image](/images/image.png)
+  </Frame>
 
 <Tip>
-  Hãy dùng bộ lọc **Overdue** hằng ngày để bắt các task đã trễ hạn và reassign hoặc escalate khi cần.
+  Hãy dùng bộ lọc **Thời hạn** hằng ngày để bắt các công việc đã trễ hạn và giao lại hoặc tính toán thời hạn thực hiện khi cần.
 </Tip>
 
 <Info>
-  Task được tạo tự động từ mục checklist bị fail sẽ kèm link về checklist submission gốc, để quản lý có đầy đủ ngữ cảnh mà không cần chuyển màn hình.
+  Công việc được tạo tự động từ mục checklist bị fail sẽ kèm link về câu trả lời check list gốc, để quản lý có đầy đủ ngữ cảnh mà không cần chuyển màn hình.
 </Info>
+
+**Lưu ý:**
+
+- Có thể thực hiện chuyển nhanh trạng thái công việc tại màn hình danh sách bằng cách bấm vào icon tại mỗi công việc
+  <Frame>
+    ![2026 05 10 21 27 18](/images/2026-05-10_21-27-18.png)
+  </Frame>
+- Công việc sinh ra khi thực hiện kiểm tra checklist sẽ hiển thị mối liên quan : công việc được tạo ra từ câu trả lời nào được gửi lên
+  <Frame>
+    ![2026 05 10 21 33 29](/images/2026-05-10_21-33-29.png)
+  </Frame>
