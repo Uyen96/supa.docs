@@ -65,21 +65,6 @@
         ]
       },
       {
-        "group": "Platform",
-        "icon": "layers",
-        "expanded": true,
-        "pages": [
-          "vi/platform/checklists",
-          "vi/platform/task-management",
-          "vi/platform/training",
-          "vi/platform/analytics",
-          "vi/platform/team-chat",
-          "vi/platform/heads-up",
-          "vi/platform/issues",
-          "vi/platform/ai"
-        ]
-      },
-      {
         "group": "Use case",
         "icon": "briefcase",
         "expanded": true,
@@ -87,18 +72,15 @@
           "vi/use-cases/retail",
           "vi/use-cases/fb",
           "vi/use-cases/hospitality",
-          "vi/use-cases/facilities"
+          "vi/use-cases/facilities",
+          "vi/use-cases/untitled-page"
         ]
       },
       {
-        "group": "Cài đặt tài khoản",
-        "icon": "settings",
-        "expanded": true,
+        "group": "Tài khoản & Thanh toán",
         "pages": [
-          "vi/account/setup",
-          "vi/account/roles-permissions",
-          "vi/account/integrations",
-          "vi/account/pricing"
+          "pricing",
+          "untitled-page"
         ]
       }
     ]
