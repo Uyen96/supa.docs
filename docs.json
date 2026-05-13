@@ -103,10 +103,7 @@
       }
     ]
   },
-  "logo": {
-    "light": "https://media.brand.dev/84614cec-951f-43a6-b532-8341185f2baf.png",
-    "dark": "https://media.brand.dev/84614cec-951f-43a6-b532-8341185f2baf.png"
-  },
+  
   "navbar": {
     "links": [],
     "primary": {
