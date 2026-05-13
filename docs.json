@@ -69,11 +69,11 @@
         "icon": "briefcase",
         "expanded": true,
         "pages": [
-          "vi/use-cases/retail",
           "vi/use-cases/fb",
           "vi/use-cases/hospitality",
-          "vi/use-cases/facilities",
-          "vi/use-cases/untitled-page"
+          "vi/use-cases/untitled-page",
+          "vi/use-cases/untitled-page-1",
+          "vi/use-cases/untitled-page-2"
         ]
       },
       {
