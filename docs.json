@@ -80,8 +80,8 @@
       {
         "group": "Tài khoản & Thanh toán",
         "pages": [
-          "pricing",
-          "untitled-page"
+          "vi/account/pricing",
+          "vi/account/vi/account/untitled-page"
         ]
       }
     ]
