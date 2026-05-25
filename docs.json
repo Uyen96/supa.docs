@@ -8,7 +8,7 @@
     "light": "#b8a3fc",
     "dark": "#664afc"
   },
-  "favicon": "https://media.brand.dev/1dec103e-84d7-4975-b8be-b7e9362d9415.png",
+  "favicon": "/images/favicon.png",
   "icons": {
     "library": "lucide"
   },
@@ -86,7 +86,10 @@
       }
     ]
   },
-  
+  "logo": {
+    "light": "/images/logo.png",
+    "dark": "/images/logo.png"
+  },
   "navbar": {
     "links": [],
     "primary": {
