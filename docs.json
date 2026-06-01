@@ -52,7 +52,6 @@
       },
       {
         "group": "Tính năng",
-        "icon": "layers",
         "expanded": true,
         "pages": [
           "vi/features/checklists-audits",
