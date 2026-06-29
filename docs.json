@@ -39,7 +39,7 @@
         }
       ]
     },
-    "pages": [
+    "groups": [
       {
         "group": "Bắt đầu với Supa",
         "expanded": true,
@@ -84,8 +84,13 @@
           "vi/account/untitled-page"
         ]
       },
-      "phien-ban",
-      "untitled-page"
+      {
+        "group": "Phiên bản",
+        "icon": "calendar-days",
+        "pages": [
+          "untitled-page"
+        ]
+      }
     ]
   },
   "logo": {
