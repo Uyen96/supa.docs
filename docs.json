@@ -39,7 +39,7 @@
         }
       ]
     },
-    "groups": [
+    "pages": [
       {
         "group": "Bắt đầu với Supa",
         "expanded": true,
@@ -83,7 +83,9 @@
           "vi/account/pricing",
           "vi/account/untitled-page"
         ]
-      }
+      },
+      "phien-ban",
+      "untitled-page"
     ]
   },
   "logo": {
