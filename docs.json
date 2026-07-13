@@ -56,6 +56,7 @@
           "vi/features/checklists-audits",
           "vi/features/task-management",
           "vi/features/training",
+          "vi/features/project",
           "vi/features/analytics",
           "vi/features/team-chat",
           "vi/features/heads-up",
