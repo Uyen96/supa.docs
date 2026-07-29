@@ -61,7 +61,8 @@
           "vi/features/team-chat",
           "vi/features/heads-up",
           "vi/features/issues-investigations",
-          "vi/features/ai"
+          "vi/features/ai",
+          "vi/features/tao-tai-khoan"
         ]
       },
       {
