@@ -7,7 +7,7 @@ icon: "clipboard-check"
 
 Supa biến mọi SOP (Standard Operating Procedure) thành checklist trên mobile để đội ngũ nhân viên tại địa điểm cơ sở  có thể hoàn thành ngay trên điện thoại — kèm xác minh GPS để đảm bảo đang ở đúng địa điểm và bằng chứng ảnh chụp trực tiếp để xác nhận danh sách công việc được giao đã được thực hiện. Dưới đây là các hướng dẫn cách xây dựng checklist, cấu hình đánh giá và xem kết quả theo thời gian thực.
 
-## Tính năng chính
+# Tính năng chính
 
 <AccordionGroup>
   <Accordion title="Loại câu hỏi thiết lập trả lời">
@@ -48,9 +48,9 @@ Supa biến mọi SOP (Standard Operating Procedure) thành checklist trên mobi
   </Accordion>
 </AccordionGroup>
 
-# I. Thao tác trên web
+## I. Thao tác trên web
 
-## Biểu mẫu
+### Biểu mẫu
 
 <Steps>
   <Step title="Mở menu Biểu mẫu">
@@ -97,7 +97,7 @@ Supa biến mọi SOP (Standard Operating Procedure) thành checklist trên mobi
   </Step>
 </Steps>
 
-## Lên lịch checklist lặp lại
+### Lên lịch checklist lặp lại
 
 <Steps>
   <Step title="Mở menu Lịch checklists">
@@ -131,25 +131,144 @@ Supa biến mọi SOP (Standard Operating Procedure) thành checklist trên mobi
   </Step>
 </Steps>
 
-## Kiểm tra các check list đã được thực hiện
+### Kiểm tra các checklist đã được thực hiện
 
-Dùng chức năng đánh giá cho các đợt kiểm tra đột xuất tại điểm. Quản lý mở ứng dụng Supa mobile, chọn địa điểm, chọn biểu mẫu và chạy checklist ngay tại chỗ. Mọi xác nhận, đánh giá được gửi lên — bao gồm tọa độ GPS và timestamp — được ghi nhận theo thời gian thực và hiển thị ngay trên báo cáo.
+Dùng chức năng đánh giá cho các đợt kiểm tra đột xuất tại điểm. Quản lý mở ứng dụng Supa mobile, chọn địa điểm, chọn biểu mẫu và chạy checklist ngay tại chỗ. Mọi xác nhận, đánh giá được gửi lên — bao gồm tọa độ GPS và time-stamp — được ghi nhận theo thời gian thực và hiển thị ngay trên báo cáo.
 
 <Tip>
   Kết hợp checklist với cơ chế tự tạo công việc sửa chữa để bất kỳ mục fail nào trong lần kiểm tra sẽ ngay lập tức trở thành task được giao kèm hạn xử lý.
 </Tip>
 
-## Xem kết quả
+### Xem kết quả
 
 Mọi xác nhận hiển thị theo thời gian thực trong chức năng **Báo cáo**. Từ đây bạn có thể:
 
 - Lọc theo địa điểm, ngày tháng hoặc người thực hiện
-  - Xem điểm của từng kết quả check list được gửi lên và kéo tới kết quả trả lời theo từng câu hỏi
+  - Xem điểm của từng kết quả checklist được gửi lên và kéo tới kết quả trả lời theo từng câu hỏi
 - Xem ảnh đính kèm trực tiếp trong trang
 - Xuất dữ liệu trả lời ra excel hoặc PDF để lưu hồ sơ tuân thủ
 
 <Note>
-  Checklist thực hiện bao gồm thông tin ghi nhận đầy đủ: tên nhân viên, tọa độ GPS tại thời điểm nộp, timestamp trên thiết bị và toàn bộ ảnh bằng chứng.
+  Checklist thực hiện bao gồm thông tin ghi nhận đầy đủ: tên nhân viên, tọa độ GPS tại thời điểm nộp, time-stamp trên thiết bị và toàn bộ ảnh bằng chứng.
 </Note>
 
-II. Thao tác trên phone
+## II. Thao tác trên phone
+
+### Thao tác làm checklist
+
+Tại màn Của tôi sẽ thấy tất cả các checklist trong 1 ngày cần làm.
+
+Ấn vào xem để "Xem" và làm tất cả checklist hoặc "Bắt đầu" ở 1 checklist bất kỳ
+
+<Frame>
+  ![IMG 8941](/images/IMG_8941-1.PNG "IMG 8941")
+
+  Khi ấn vào "Xem" sẽ được chuyển tới màn "Chi tiết lịch hôm nay" gồm tất cả các checklist cần làm theo thứ tự thời gian gần nhất tới xa nhất.
+
+  Với checklist chưa tới giờ thực hiện, hệ thống sẽ có cảnh báo đỏ.
+
+  ![IMG 8951](/images/IMG_8951.PNG "IMG 8951")
+
+  Tại màn Chi tiết lịch hôm nay, người thực hiện checklist cần làm tất cả các checklist mà mình được gán để để thanh "Tiến độ hôm nay" thành màu xanh. 
+
+  ![IMG 8980](/images/IMG_8980.PNG "IMG 8980")
+
+  Các trạng thái checklist bao gồm: "Cần làm", "Đang làm", "Đúng hạn", "Trễ hạn", và "Không thể thực hiện". Trong đó:
+
+  Cần làm: cần thực hiện checklist
+
+  Đang làm: đã ấn bắt đầu thực hiện checklist
+
+  Đúng hạn: hoàn thành trong thời hạn quy định
+
+  Trễ hạn: hoàn thành sau thời hạn quy định
+
+  Không thực hiện: không thực hiện checklist
+
+  - Khi làm checklist bất kỳ sẽ có 2 lựa chọn: "Bắt đầu thực hiện" và "Không thể thực hiện"
+    ![IMG 8952](/images/IMG_8952.PNG "IMG 8952")
+    Khi ấn Bắt đầu thực hiện, trang 1 về Thông tin chung sẽ lấy theo thông tin của tài khoản.
+    ![IMG 8953](/images/IMG_8953.PNG "IMG 8953")
+</Frame>
+
+Sang trang 2 và các trang còn lại, người làm checklist cần trả lời câu hỏi bằng cách:
+
+Chọn câu trả lời 
+
+Với các câu yêu cầu bằng chứng thì bổ sung bằng chứng 
+
+Ghi chú: ghi bổ sung (nếu có)
+
+Công việc: tạo công việc (nếu có)
+
+<Frame>
+  ![IMG 8954](/images/IMG_8954-1.PNG "IMG 8954")
+</Frame>
+
+Ví dụ **Tệp** yêu cầu hình ảnh.
+
+<Frame>
+  ![IMG 8960](/images/IMG_8960-1.PNG "IMG 8960")
+</Frame>
+
+Ví dụ **Ghi chú**.
+
+<Frame>
+  ![IMG 8965](/images/IMG_8965-1.PNG "IMG 8965")
+</Frame>
+
+Ví dụ Tạo **Công việc** trong checklist.
+
+<Frame>
+  ![IMG 8962](/images/IMG_8962.PNG "IMG 8962")
+</Frame>
+
+Sau khi trả lời xong các checklist, ấn **Hoàn thành** sẽ có thông báo thành công.
+
+<Frame>
+  ![IMG 8963](/images/IMG_8963-1.PNG "IMG 8963")
+</Frame>
+
+<Frame>
+  ![IMG 8966](/images/IMG_8966.PNG "IMG 8966")
+</Frame>
+
+Lưu ý: 
+
+Khi ấn hoàn thành lưu ý hệ thống sẽ tự đi về câu chưa trả lời hoặc câu yêu cầu bằng chứng
+
+Khi **Xem báo cáo** có thể xem chi tiết từng câu trả lời của người thực hiện checklist.
+
+<Frame>
+  ![IMG 8967](/images/IMG_8967.PNG "IMG 8967")
+</Frame>
+
+### Thao tác với menu Checklist 
+
+- Vào menu **Checklist** để xem tình trạng của tất cả các checklist.
+
+<Frame>
+  ![IMG 8986](/images/IMG_8986.PNG "IMG 8986")
+</Frame>
+
+- Khi chọn 1 checklist đã hoàn thành cụ thể, có thể xem nhanh: Chi tiết câu trả lời, Tệp liên quan, Công việc theo dõi và Cảnh báo
+
+<Frame>
+  ![IMG 9004](/images/IMG_9004.PNG "IMG 9004")
+</Frame>
+
+### Thao tác với tài khoản có quyền Đánh giá
+
+- Các tài khoản có quyền Đánh giá checklist với các checklist ở trạng thái hoàn thành: "Đúng hạn" và "Trễ hạn".
+- Chọn checklist cần đánh giá và kéo xuống cuối cùng của checklist (sau nút Hoàn thành). Chọn đánh giá Đạt hay Không đạt rồi ấn Đánh giá.
+
+<Frame>
+  ![IMG 8989](/images/IMG_8989.PNG "IMG 8989")
+</Frame>
+
+- Trạng thái của Đánh giá tại checklist bao gồm: Chờ, Đạt, Không đạt, Đang đánh giá.
+- Ngoài ra người đánh giá còn có quyền đổi trạng thái của checklist từ "hoàn thành" (trễ hoặc đúng hạn) thành "đang làm" bằng cách ấn vào "Đánh dấu chưa hoàn thành"
+
+<Frame>
+  ![IMG 8991](/images/IMG_8991.PNG "IMG 8991")
+</Frame>
